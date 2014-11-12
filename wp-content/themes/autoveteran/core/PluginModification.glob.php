@@ -12,11 +12,7 @@ class PluginModification {
 		* Disable WPSEO page score functions and marker
 		*/
 		add_filter( 'wpseo_use_page_analysis', function () {
-				return false;
-			} );
-
-		add_action( 'init', function () {
-			remove_action( 'wpseo_head', array( $GLOBALS['wpseo_front'], 'debug_marker' ), 2 );
+			return false;
 		} );
 
 		/*
@@ -25,8 +21,8 @@ class PluginModification {
 		add_filter( 'disable_wpseo_json_ld_search', '__return_true' );
 
 		/*
-Update Nag
-*/
+		Update Nag
+		*/
 		add_action('admin_menu', function() {
 			remove_action( 'admin_notices', 'update_nag', 3 );
 		});
