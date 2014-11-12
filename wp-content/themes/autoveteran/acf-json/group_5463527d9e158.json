@@ -1,0 +1,97 @@
+{
+    "key": "group_5463527d9e158",
+    "title": "O n\u00e1s",
+    "fields": [
+        {
+            "key": "field_54635282567da",
+            "label": "Obr\u00e1zek v prav\u00e9 \u010d\u00e1sti",
+            "name": "right_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "Bude zmen\u0161en na 440px \u0161\u00ed\u0159ky.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all"
+        },
+        {
+            "key": "field_54635295567db",
+            "label": "Obr\u00e1zek zakladatele",
+            "name": "founder_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "Bude zmen\u0161en na 80px \u0161\u00ed\u0159ky.\r\nNechte pr\u00e1zdn\u00e9 pro nezobrazen\u00ed odkazu se zakladatelem.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all"
+        },
+        {
+            "key": "field_546352c4567dc",
+            "label": "Text zakladatele",
+            "name": "founder_text",
+            "prefix": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "about_us_founder",
+            "media_upload": 1
+        },
+        {
+            "key": "field_546352d6567dd",
+            "label": "Odkaz zakladatele",
+            "name": "founder_link",
+            "prefix": "",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_about_us.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": ""
+}
