@@ -1,0 +1,82 @@
+{
+    "key": "group_5464d89f9de40",
+    "title": "Novinky",
+    "fields": [
+        {
+            "key": "field_5464d8adfc8cb",
+            "label": "Obr\u00e1zek novinky",
+            "name": "news_featured_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "Obr\u00e1zek, kter\u00fd bude zobrazen ve v\u00fdpisu novinek.\r\nObr\u00e1zek bude zmen\u0161en na \u010dtverec 120x120px.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all"
+        },
+        {
+            "key": "field_5464d8f2fc8cc",
+            "label": "Zobrazit na konci novinky v\u00fd\u0161e vlo\u017een\u00fd obr\u00e1zek v pln\u00e9 velikosti?",
+            "name": "show_featured_in_news",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Ano",
+            "default_value": 1
+        },
+        {
+            "key": "field_5464d925fc8cd",
+            "label": "Obr\u00e1zek na konci novinky",
+            "name": "image_in_news",
+            "prefix": "",
+            "type": "image",
+            "instructions": "Zde m\u016f\u017eete vlo\u017eit jin\u00fd obr\u00e1zek, kter\u00fd bude v pln\u00e9 velikosti zobrazen na konci novinky.",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5464d8f2fc8cc",
+                        "operator": "!=",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "news"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": ""
+}

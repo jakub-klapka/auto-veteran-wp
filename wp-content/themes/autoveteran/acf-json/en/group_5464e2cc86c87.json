@@ -1,0 +1,57 @@
+{
+    "key": "group_5464e2cc86c87",
+    "title": "Videa",
+    "fields": [
+        {
+            "key": "field_5464e2cd7f13d",
+            "label": "URL adresa va\u0161eho Youtube kan\u00e1lu",
+            "name": "yt_channel_url",
+            "prefix": "",
+            "type": "url",
+            "instructions": "Ve form\u00e1tu \"https:\/\/www.youtube.com\/user\/jmeno_uzivatele\"",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5464e2cd7f159",
+            "label": "Text prav\u00e9ho sloupce",
+            "name": "sidebar_teaser",
+            "prefix": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_videa.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": ""
+}

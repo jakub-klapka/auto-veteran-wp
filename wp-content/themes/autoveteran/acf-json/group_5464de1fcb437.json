@@ -1,0 +1,88 @@
+{
+    "key": "group_5464de1fcb437",
+    "title": "Obecn\u00e1 nastaven\u00ed",
+    "fields": [
+        {
+            "key": "field_5464de391d242",
+            "label": "Postrann\u00ed panel u novinek",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_5464df6c8cc49",
+            "label": "Info",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Toto nastaven\u00ed se projev\u00ed na hlavn\u00ed str\u00e1nce v doln\u00ed \u010d\u00e1sti a tak\u00e9 na detailu v\u0161ech novinek."
+        },
+        {
+            "key": "field_5464de451d243",
+            "label": "Text v postrann\u00edm panelu",
+            "name": "news_sidebar_text",
+            "prefix": "",
+            "type": "wysiwyg",
+            "instructions": "Je mo\u017en\u00e9 standardn\u00edm zp\u016fsobem pou\u017e\u00edvat i obr\u00e1zky, ale nezapome\u0148te, \u017ee postrann\u00ed panel je relativn\u011b \u00fazk\u00fd.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1
+        },
+        {
+            "key": "field_5464de7e1d244",
+            "label": "Odkaz na facebook str\u00e1nku",
+            "name": "news_sidebar_fb_link",
+            "prefix": "",
+            "type": "url",
+            "instructions": "Ve form\u00e1tu nap\u0159.: https:\/\/www.facebook.com\/atpltheory<br \/>\r\nNechte pr\u00e1zdn\u00e9 pro nezobrazen\u00ed Facebook boxu.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": ""
+}

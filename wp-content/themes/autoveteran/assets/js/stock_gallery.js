@@ -1,0 +1,1 @@
+!function(n){n(function(){n(".stock_gallery a").fancybox({padding:0,margin:0})})}(jQuery);
