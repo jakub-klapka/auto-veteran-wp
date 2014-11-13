@@ -6,7 +6,7 @@ $a = lumi_template( 'AboutUs' );
 ?>
 <?php get_header(); ?>
 
-	<article class="main_content" role="main" itemprop="mainContentOfPage">
+	<article class="main_content" role="main" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/AboutPage">
 
 		<h1><?php the_title(); ?></h1>
 
