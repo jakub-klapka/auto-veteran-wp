@@ -9,6 +9,8 @@ class Layout {
 	public function __construct() {
 	
 		add_action( 'wp_enqueue_scripts', array( $this, 'register_scripts' ) );
+
+		add_filter( 'excerpt_more', array( $this, 'excerpt_more' ) );
 	
 	}
 
@@ -28,6 +30,10 @@ class Layout {
 
 		wp_register_script( 'modernizr', get_template_directory_uri() . '/assets/js/libs/modernizr.js', array(), LUMI_CSS_JS_VER, true );
 
+	}
+
+	public function excerpt_more( $more ) {
+		return '...';
 	}
 
 
