@@ -45,6 +45,14 @@ class Layout {
 
 	public function get_language_links() {
 		$languages = icl_get_languages('skip_missing=0');
+		if( is_post_type_archive( 'cars' ) & get_query_var( 'sold' ) == true ) {
+			//fix url for sold archive
+			foreach( $languages as $key => $value ) {
+				$url = $value['url'];
+				$append = ( $key === 'cs' ) ? 'prodano' : 'sold';
+				$languages[$key]['url'] = $url . $append . '/';
+			}
+		}
 		return $languages;
 	}
 
