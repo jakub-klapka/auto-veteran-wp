@@ -1,0 +1,40 @@
+{
+    "key": "group_5465e8e6e16a5",
+    "title": "Auto - galerie",
+    "fields": [
+        {
+            "key": "field_5465e8e7cb6d6",
+            "label": "Galerie",
+            "name": "gallery",
+            "prefix": "",
+            "type": "gallery",
+            "instructions": "Nahr\u00e1vejte obr\u00e1zky ve velik\u00e9m rozli\u0161en\u00ed, aby mohly b\u00fdt v detailu zobrazeny na cel\u00fd monitor.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "preview_size": "thumbnail",
+            "library": "all"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "cars"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": ""
+}
