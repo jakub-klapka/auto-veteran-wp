@@ -2,6 +2,7 @@
 /*
  * Template name: Stránka s výpisem videí
  */
+$v = lumi_template( 'Videos' );
 ?>
 <?php get_header(); ?>
 
@@ -9,37 +10,16 @@
 
 		<article class="content_block_row__big content_block_section main_content" role="main" itemprop="mainContentOfPage">
 
+			<h1><?php the_title(); ?></h1>
+
 			<?php the_content(); ?>
 
-			<h2>Video 1</h2>
-			<iframe width="550" height="309" src="//www.youtube.com/embed/GyRvb6Hfzi8" frameborder="0" allowfullscreen></iframe>
-
-			<hr/>
-
-			<h2>Video 2</h2>
-			<iframe width="550" height="309" src="//www.youtube.com/embed/GyRvb6Hfzi8" frameborder="0" allowfullscreen></iframe>
-
-			<hr/>
-
-			<h2>Video 3</h2>
-			<iframe width="550" height="309" src="//www.youtube.com/embed/GyRvb6Hfzi8" frameborder="0" allowfullscreen></iframe>
-
-			<hr/>
-
-			<h2>Video 4</h2>
-			<iframe width="550" height="309" src="//www.youtube.com/embed/GyRvb6Hfzi8" frameborder="0" allowfullscreen></iframe>
-
-			<hr/>
-
-			<h2>Video 5</h2>
-			<iframe width="550" height="309" src="//www.youtube.com/embed/GyRvb6Hfzi8" frameborder="0" allowfullscreen></iframe>
-
-			<hr/>
-
-			<h2>Video 6</h2>
-			<iframe width="550" height="309" src="//www.youtube.com/embed/GyRvb6Hfzi8" frameborder="0" allowfullscreen></iframe>
-
-
+			<?php $videos = $v->get_all_videos(); ?>
+			<?php $i = 1; foreach( $videos as $video ) : ?>
+				<?php if( $i !== 1 ) : ?><hr/><?php endif; ?>
+				<h2><?= $video['title']; ?></h2>
+				<iframe width="550" height="309" src="//www.youtube.com/embed/<?= $video['id']; ?>" frameborder="0" allowfullscreen></iframe>
+			<?php $i++; endforeach; ?>
 
 		</article>
 
