@@ -3,6 +3,65 @@
     "title": "Obecn\u00e1 nastaven\u00ed",
     "fields": [
         {
+            "key": "field_5468f0887b7ca",
+            "label": "Videa",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_5468f15129c84",
+            "label": "URL adresa va\u0161eho YouTube kan\u00e1lu",
+            "name": "youtube_channel_url",
+            "prefix": "",
+            "type": "url",
+            "instructions": "Ve form\u00e1tu \"https:\/\/www.youtube.com\/user\/jmeno_uzivatele\"",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5468f0937b7cb",
+            "label": "Zv\u00fdrazn\u011bn\u00e9 video",
+            "name": "featured_video",
+            "prefix": "",
+            "type": "select",
+            "instructions": "Vyberte video z va\u0161eho kan\u00e1lu, kter\u00e9 bude v\u017edy zobrazeno jako prvn\u00ed.<br \/>\r\nPokud nevyberete \u017e\u00e1dn\u00e9, jako prvn\u00ed bude v\u017edy zobrazeno to nejnov\u011bj\u0161\u00ed video va\u0161eho kan\u00e1lu.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "test": "Test",
+                "a": "B"
+            },
+            "default_value": [],
+            "allow_null": 1,
+            "multiple": 0,
+            "ui": 1,
+            "ajax": 0,
+            "placeholder": "",
+            "disabled": 0,
+            "readonly": 0
+        },
+        {
             "key": "field_5464de391d242",
             "label": "Postrann\u00ed panel u novinek",
             "name": "",

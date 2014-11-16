@@ -1,0 +1,56 @@
+{
+    "key": "group_546241602e1df",
+    "title": "Videa",
+    "fields": [
+        {
+            "key": "field_54624227f9b12",
+            "label": "Text prav\u00e9ho sloupce",
+            "name": "sidebar_teaser",
+            "prefix": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0
+        },
+        {
+            "key": "field_5468f1a480d77",
+            "label": "Info",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "N\u011bkter\u00e9 mo\u017enosti - jako adresa va\u0161eho YouTube kan\u00e1lu nebo zv\u00fdrazn\u011bn\u00e9 video najdete v menu <strong>Obecn\u00e1 nastaven\u00ed<\/strong>."
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_videa.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": ""
+}

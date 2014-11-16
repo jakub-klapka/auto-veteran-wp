@@ -24,16 +24,16 @@ $v = lumi_template( 'Videos' );
 		</article>
 
 		<aside class="content_block_row__small content_block_section main_content">
-			<?php if( get_field( 'yt_channel_url' ) ) : ?>
-				<a href="<?php the_field( 'yt_channel_url' ); ?>">
+			<?php if( get_field( 'youtube_channel_url', 'option' ) ) : ?>
+				<a href="<?php the_field( 'youtube_channel_url', 'option' ); ?>">
 					<img src="<?= get_template_directory_uri(); ?>/assets//images/youtube_logo.png"
 					     alt="<?php _e( 'Youtube kanál', LUMI_TEXTDOMAIN ); ?>"
 					     width="170" height="71" class="aligncenter"/>
 				</a>
 			<?php endif; ?>
 			<?php the_field( 'sidebar_teaser' ); ?>
-			<?php if( get_field( 'yt_channel_url' ) ) : ?>
-				<a class="button_link" href="<?php the_field( 'yt_channel_url' ); ?>"><?php _e( 'Odebírat', LUMI_TEXTDOMAIN ); ?></a>
+			<?php if( get_field( 'youtube_channel_url', 'option' ) ) : ?>
+				<a class="button_link" href="<?php the_field( 'youtube_channel_url', 'option' ); ?>"><?php _e( 'Odebírat', LUMI_TEXTDOMAIN ); ?></a>
 			<?php endif; ?>
 		</aside>
 
