@@ -11,7 +11,12 @@ class Cars {
 		add_action( 'init', array( $this, 'register_cpt' ) );
 
 		add_image_size( 'gallery_thumb', 288, 264, true );
-	
+		
+		add_action( 'template_include', array( $this, 'check_for_sold_car_detail' ) );
+		
+		add_action( 'wpseo_typecount_where', array( $this, 'remove_sold_from_sitemaps_sql_where' ), 10, 2 );
+		add_action( 'wpseo_posts_where', array( $this, 'remove_sold_from_sitemaps_sql_where' ), 10, 2 );
+
 	}
 
 	public function register_cpt() {
@@ -45,4 +50,29 @@ class Cars {
 		) );
 
 	}
+
+	public function check_for_sold_car_detail( $template ) {
+		if( is_main_query() && is_singular( 'cars' ) ) {
+			if( get_field( 'sold' ) == true ){
+				global $wp_query;
+				header("HTTP/1.0 404 Not Found");
+				$wp_query->set_404();
+				$template = locate_template( '404.php' );
+			}
+		}
+
+		return $template;
+	}
+
+	public function remove_sold_from_sitemaps_sql_where( $filter, $post_type ) {
+		if( $post_type === 'cars' ){
+			global $wpdb;
+			$filter .= ' AND ( SELECT meta_value FROM ' . $wpdb->postmeta . ' WHERE ' . $wpdb->postmeta . '.post_id = ' . $wpdb->posts . '.ID AND ' . $wpdb->postmeta . '.meta_key LIKE "sold" LIMIT 1 ) != 1';
+		}
+
+		return $filter;
+
+	}
+
+
 }

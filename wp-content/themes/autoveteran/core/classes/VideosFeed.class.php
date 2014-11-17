@@ -11,10 +11,6 @@ class VideosFeed {
 
 	public function __construct( $force_fetch = false ) {
 
-		if( $force_fetch === true ) {
-			file_put_contents( __DIR__ . '/test.txt', 'test' );
-		}
-
 		$this->yt_api_key = 'AIzaSyCaesFEG9KTUQ9CMH47WZT1uF_UZAF33g8';
 
 		$this->videos = $this->populate_videos( $force_fetch );
