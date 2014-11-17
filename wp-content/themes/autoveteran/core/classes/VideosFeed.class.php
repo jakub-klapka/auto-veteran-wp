@@ -17,7 +17,10 @@ class VideosFeed {
 
 	}
 
-	public function get_videos() {
+	public function get_videos( $number = false ) {
+		if( $number ){
+			return array_slice( $this->videos, 0, $number );
+		}
 		return $this->videos;
 	}
 

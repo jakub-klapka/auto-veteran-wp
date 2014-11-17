@@ -1,4 +1,9 @@
-<aside class="content_block_row__small content_block_section news_sidebar">
+<?php global $news_sidebar_header; ?>
+<aside class="content_block_row__small content_block_section news_sidebar<?php if( $news_sidebar_header ): ?> has-header<?php endif; ?>">
+
+	<?php if( $news_sidebar_header ) : ?>
+		<h1 class="content_block_section__header"><?= $news_sidebar_header; ?></h1>
+	<?php endif; ?>
 
 	<div class="news_sidebar__text">
 		<?php the_field( 'news_sidebar_text', 'option' ); ?>

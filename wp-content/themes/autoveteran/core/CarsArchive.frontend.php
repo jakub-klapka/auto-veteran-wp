@@ -14,7 +14,7 @@ class CarsArchive {
 	}
 
 	public function no_pagination( $query ) {
-		if( $query->get( 'post_type' ) === 'cars' ) {
+		if( $query->get( 'post_type' ) === 'cars' && $query->get( 'posts_per_page' ) == false ) {
 			$query->set( 'posts_per_page', -1 );
 		}
 	}

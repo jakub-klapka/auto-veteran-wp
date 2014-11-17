@@ -32,6 +32,7 @@ class PluginModification {
 
 		add_action( 'after_setup_theme', array( $this, 'add_editor_style' ) );
 
+
 	}
 
 	public function aiowps_disable_server_signature( $rules ) {
@@ -46,5 +47,6 @@ class PluginModification {
 	public function add_editor_style() {
 		add_editor_style( 'assets/css/editor-style.css' );
 	}
+
 
 }
