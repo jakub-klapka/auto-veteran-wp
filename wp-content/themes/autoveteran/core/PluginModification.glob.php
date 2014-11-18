@@ -36,6 +36,8 @@ class PluginModification {
 
 		add_action( 'widgets_init', array( $this, 'unregister_widgets' ) );
 
+		add_filter( 'rewrite_rules_array', array( $this, 'clean_rewrite' ) );
+
 	}
 
 	public function unregister_widgets()
@@ -54,4 +56,26 @@ class PluginModification {
 		unregister_widget('WP_Widget_RSS');
 		unregister_widget('WP_Widget_Tag_Cloud');
 	}
+
+
+	public function clean_rewrite( $rules ) {
+		foreach( $rules as $rule => $rewrite ) {
+			if(
+				strpos( $rule, 'feed|' ) !== false
+				|| strpos( $rule, 'category/(.+?)' ) !== false
+				|| strpos( $rule, 'tag/([^/]+)' ) !== false
+				|| strpos( $rule, 'type/([^/]+)' ) !== false
+				|| strpos( $rule, '/trackback/' ) !== false
+				|| strpos( $rule, 'feed/' ) !== false
+				|| strpos( $rule, 'comment-page-' ) !== false
+				|| strpos( $rule, 'comments/' ) !== false
+				|| strpos( $rule, 'search/' ) !== false
+				|| strpos( $rule, 'author/' ) !== false
+			) {
+				unset( $rules[$rule] );
+			}
+		}
+		return $rules;
+	}
+
 }

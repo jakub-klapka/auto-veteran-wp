@@ -44,8 +44,9 @@ class Cars {
 			'supports' => array( 'title', 'editor', 'revisions' ),
 			'has_archive' => true,
 			'rewrite' => array(
-				'slug' => _x( 'auta', 'URL slug', LUMI_TEXTDOMAIN ),
-				'pages' => false
+				'slug' => _x( 'nabidka', 'URL slug', LUMI_TEXTDOMAIN ),
+				'pages' => false,
+				'has_feed' => false
 			)
 		) );
 
