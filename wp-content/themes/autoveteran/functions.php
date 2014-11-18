@@ -11,6 +11,23 @@ define( 'ICL_DONT_LOAD_LANGUAGES_JS', true );
 
 
 /**
+ * Load Plugins translations
+ * Actually fix textdomains, where plugin don't have same textdomain as pluginname
+ */
+$plugins_textdomain_fix = array(
+//	'acf' => 'acf-options-page',
+//	'baweic' => 'baw-invitation-codes',
+//	'ga-dash' => 'google-analytics-dashboard-for-wp'
+);
+foreach( $plugins_textdomain_fix as $textdomain => $file_name ) {
+	$file = WP_LANG_DIR . '/plugins/' . $file_name . '-' . get_locale() . '.mo';
+	if( file_exists( $file ) ) {
+		load_textdomain( $textdomain, $file );
+	}
+}
+
+
+/**
  * Classes autoloading
  * All classes are located in core/classes as class_name.class.php
  * All classes are using namespace Lumi/Classes

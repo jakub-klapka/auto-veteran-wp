@@ -87,17 +87,23 @@ $c->enqueue_styles();
 
 			<section class="columns_column">
 
-				<h2><?php _e( 'Pošlete nám zprávu' ); ?></h2>
+				<h2><?php _e( 'Pošlete nám zprávu', LUMI_TEXTDOMAIN ); ?></h2>
 
-				<?= do_shortcode( '[contact-form-7 id="109" title="Kontaktní formulář CZ" html_class="contact_us__form"]' ); ?>
+				<?php if( ICL_LANGUAGE_CODE === 'cs' ) : ?>
+					<?= do_shortcode( '[contact-form-7 id="109" title="Kontaktní formulář CZ" html_class="contact_us__form"]' ); ?>
+				<?php endif; ?>
+				<?php if( ICL_LANGUAGE_CODE === 'en' ) : ?>
+					<?= do_shortcode( '[contact-form-7 id="853" title="Kontaktní formulář EN" html_class="contact_us__form"]' ); ?>
+				<?php endif; ?>
+
 
 			</section>
 
 		</div>
 
-		<a class="contact_us__map" href="">
-			<img src="//placehold.it/906x400" alt=""/>
-			<div class="contact_us__map__button">Enlarge the map</div>
+		<a class="contact_us__map" href="<?php the_field( 'map_link' ); ?>">
+			<img src="<?= get_template_directory_uri(); ?>/assets/images/contact_map_<?= ICL_LANGUAGE_CODE; ?>.png" alt="<?php _e( 'AVC na mapě', LUMI_TEXTDOMAIN ); ?>"/>
+			<div class="contact_us__map__button"><?php _e( 'Zvětšit mapu', LUMI_TEXTDOMAIN ); ?></div>
 		</a>
 
 	</article>

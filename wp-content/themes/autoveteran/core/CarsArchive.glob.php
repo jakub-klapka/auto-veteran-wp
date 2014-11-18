@@ -16,7 +16,7 @@ class CarsArchive {
 	}
 
 	public function sold_rewrites( ){
-		add_rewrite_rule( 'auta/((previous)|(predchozi))/?$', 'index.php?post_type=cars&sold=true', 'top' );
+		add_rewrite_rule( '(nabidka|stock)/((previous)|(predchozi))/?$', 'index.php?post_type=cars&sold=true', 'top' );
 		add_rewrite_tag( '%sold%', '([^&]+)' );
 	}
 

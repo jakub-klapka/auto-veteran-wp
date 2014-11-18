@@ -35,7 +35,8 @@ class CarsArchive {
 						<input type="hidden" class="menu-item-type" name="menu-item[-1][menu-item-type]" value="custom">
 						<input type="hidden" class="menu-item-title" name="menu-item[-1][menu-item-title]"
 						       value="<?= ( ICL_LANGUAGE_CODE === 'cs' ) ? 'Aktuální nabídka' : 'Current stock'; ?>">
-						<input type="hidden" class="menu-item-url" name="menu-item[-1][menu-item-url]" value="<?= get_post_type_archive_link( 'cars' ); ?>">
+						<input type="hidden" class="menu-item-url" name="menu-item[-1][menu-item-url]"
+						       value="<?= ( ICL_LANGUAGE_CODE === 'cs' ) ? get_post_type_archive_link( 'cars' ) : get_bloginfo( 'url' ) . '/en/stock'; ?>">
 					</li>
 					<li>
 						<label class="menu-item-title">
@@ -45,7 +46,7 @@ class CarsArchive {
 						<input type="hidden" class="menu-item-title" name="menu-item[-2][menu-item-title]"
 						       value="<?= ( ICL_LANGUAGE_CODE === 'cs' ) ? 'Minulá nabídka' : 'Previous stock'; ?>">
 						<input type="hidden" class="menu-item-url" name="menu-item[-2][menu-item-url]"
-						       value="<?= get_post_type_archive_link( 'cars' ); ?><?= ( ICL_LANGUAGE_CODE === 'cs' ) ? 'predchozi/' : 'previous/'; ?>">
+						       value="<?= ( ICL_LANGUAGE_CODE === 'cs' ) ? get_post_type_archive_link( 'cars' ) : get_bloginfo( 'url' ) . '/en/stock'; ?><?= ( ICL_LANGUAGE_CODE === 'cs' ) ? 'predchozi/' : '/previous/'; ?>">
 					</li>
 
 				</ul>

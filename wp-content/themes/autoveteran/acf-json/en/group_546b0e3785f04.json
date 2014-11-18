@@ -1,9 +1,9 @@
 {
-    "key": "group_5464e2a3384eb",
+    "key": "group_546b0e3785f04",
     "title": "O n\u00e1s",
     "fields": [
         {
-            "key": "field_5464e2a40bc9f",
+            "key": "field_546b0e38a2e1c",
             "label": "Obr\u00e1zek v prav\u00e9 \u010d\u00e1sti",
             "name": "right_image",
             "prefix": "",
@@ -21,7 +21,7 @@
             "library": "all"
         },
         {
-            "key": "field_5464e2a40bcac",
+            "key": "field_546b0e38a2e2a",
             "label": "Obr\u00e1zek zakladatele",
             "name": "founder_image",
             "prefix": "",
@@ -39,7 +39,7 @@
             "library": "all"
         },
         {
-            "key": "field_5464e2a40bcb3",
+            "key": "field_546b0e38a2e31",
             "label": "Text zakladatele",
             "name": "founder_text",
             "prefix": "",
@@ -58,7 +58,7 @@
             "media_upload": 1
         },
         {
-            "key": "field_5464e2a40bcba",
+            "key": "field_546b0e38a2e38",
             "label": "Odkaz zakladatele",
             "name": "founder_link",
             "prefix": "",

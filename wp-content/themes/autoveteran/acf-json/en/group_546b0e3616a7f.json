@@ -1,9 +1,9 @@
 {
-    "key": "group_5464de1fcb437",
+    "key": "group_546b0e3616a7f",
     "title": "Obecn\u00e1 nastaven\u00ed",
     "fields": [
         {
-            "key": "field_5468f0887b7ca",
+            "key": "field_546b0e374ac1d",
             "label": "Videa",
             "name": "",
             "prefix": "",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "key": "field_5468f15129c84",
+            "key": "field_546b0e374ac2b",
             "label": "URL adresa va\u0161eho YouTube kan\u00e1lu",
             "name": "youtube_channel_url",
             "prefix": "",
@@ -35,7 +35,7 @@
             "placeholder": ""
         },
         {
-            "key": "field_5468f0937b7cb",
+            "key": "field_546b0e374ac34",
             "label": "Zv\u00fdrazn\u011bn\u00e9 video",
             "name": "featured_video",
             "prefix": "",
@@ -113,7 +113,7 @@
             "readonly": 0
         },
         {
-            "key": "field_5464de391d242",
+            "key": "field_546b0e374ac3b",
             "label": "Postrann\u00ed panel u novinek",
             "name": "",
             "prefix": "",
@@ -128,7 +128,7 @@
             }
         },
         {
-            "key": "field_5464df6c8cc49",
+            "key": "field_546b0e374ac44",
             "label": "Info",
             "name": "",
             "prefix": "",
@@ -144,7 +144,7 @@
             "message": "Toto nastaven\u00ed se projev\u00ed na hlavn\u00ed str\u00e1nce v doln\u00ed \u010d\u00e1sti a tak\u00e9 na detailu v\u0161ech novinek."
         },
         {
-            "key": "field_5464de451d243",
+            "key": "field_546b0e374ac4b",
             "label": "Text v postrann\u00edm panelu",
             "name": "news_sidebar_text",
             "prefix": "",
@@ -163,7 +163,7 @@
             "media_upload": 1
         },
         {
-            "key": "field_5464de7e1d244",
+            "key": "field_546b0e374ac52",
             "label": "Odkaz na facebook str\u00e1nku",
             "name": "news_sidebar_fb_link",
             "prefix": "",
@@ -180,7 +180,7 @@
             "placeholder": ""
         },
         {
-            "key": "field_5465ec1e18d0d",
+            "key": "field_546b0e374ac59",
             "label": "Detail aut",
             "name": "",
             "prefix": "",
@@ -195,7 +195,7 @@
             }
         },
         {
-            "key": "field_5465ec2b18d0e",
+            "key": "field_546b0e374ac60",
             "label": "Text pod popisem auta",
             "name": "cars_contact_text",
             "prefix": "",
@@ -217,7 +217,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5465ec7a18d0f",
+            "key": "field_546b0e374ac67",
             "label": "Odkaz z textu pod popisem",
             "name": "cars_contact_link",
             "prefix": "",

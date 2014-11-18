@@ -1,9 +1,9 @@
 {
-    "key": "group_5464e27db9bc2",
+    "key": "group_546b0e39b1862",
     "title": "Kontakt",
     "fields": [
         {
-            "key": "field_5464e27e8d1eb",
+            "key": "field_546b0e3b78def",
             "label": "Kontaktn\u00ed adresa",
             "name": "",
             "prefix": "",
@@ -18,7 +18,7 @@
             }
         },
         {
-            "key": "field_5464e27e8d1fc",
+            "key": "field_546b0e3b78df7",
             "label": "Adresa",
             "name": "address",
             "prefix": "",
@@ -40,7 +40,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5464e27e8d207",
+            "key": "field_546b0e3b78dfb",
             "label": "Telefon",
             "name": "tel",
             "prefix": "",
@@ -62,7 +62,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5464e27e8d211",
+            "key": "field_546b0e3b78dff",
             "label": "Mobil",
             "name": "mobile",
             "prefix": "",
@@ -84,7 +84,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5464e27e8d21a",
+            "key": "field_546b0e3b78e03",
             "label": "Emailov\u00e1 adresa",
             "name": "email",
             "prefix": "",
@@ -103,7 +103,7 @@
             "append": ""
         },
         {
-            "key": "field_5464e27e8d223",
+            "key": "field_546b0e3b78e06",
             "label": "I\u010c",
             "name": "ic",
             "prefix": "",
@@ -125,7 +125,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5464e27e8d22c",
+            "key": "field_546b0e3b78e0a",
             "label": "DI\u010c",
             "name": "dic",
             "prefix": "",
@@ -147,7 +147,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5464e27e8d235",
+            "key": "field_546b0e3b78e0d",
             "label": "Info o registraci",
             "name": "ident_info",
             "prefix": "",
@@ -169,7 +169,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5464e27e8d23f",
+            "key": "field_546b0e3b78e11",
             "label": "\u0158editel",
             "name": "",
             "prefix": "",
@@ -184,7 +184,7 @@
             }
         },
         {
-            "key": "field_5464e27e8d248",
+            "key": "field_546b0e3b78e14",
             "label": "N\u00e1zev funkce",
             "name": "position_title",
             "prefix": "",
@@ -206,7 +206,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5464e27e8d251",
+            "key": "field_546b0e3b78e18",
             "label": "Jm\u00e9no",
             "name": "position_name",
             "prefix": "",
@@ -228,7 +228,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5464e27e8d25a",
+            "key": "field_546b0e3b78e1b",
             "label": "Telefon",
             "name": "position_tel",
             "prefix": "",
@@ -250,7 +250,7 @@
             "disabled": 0
         },
         {
-            "key": "field_5464e27e8d263",
+            "key": "field_546b0e3b78e1f",
             "label": "Emailov\u00e1 adresa",
             "name": "position_email",
             "prefix": "",

@@ -22,20 +22,20 @@ class Cars {
 	public function register_cpt() {
 
 		$labels = array(
-			'name'               => 'Auta',
-			'singular_name'      => 'Auto',
-			'menu_name'          => 'Auta',
-			'name_admin_bar'     => 'Přidat auto',
+			'name'               => 'Nabídky',
+			'singular_name'      => 'Nabídka',
+			'menu_name'          => 'Nabídky',
+			'name_admin_bar'     => 'Přidat nabídku',
 			'add_new'            => 'Přidat',
-			'add_new_item'       => 'Přidat auto',
-			'new_item'           => 'Nové auto',
-			'edit_item'          => 'Upravit auto',
-			'view_item'          => 'Ukázat auto',
-			'all_items'          => 'Všechny auta',
-			'search_items'       => 'Hledat auta',
-			'parent_item_colon'  => 'Nadřazená auta:',
-			'not_found'          => 'Auta nenalezeny.',
-			'not_found_in_trash' => 'Auta nenalezeny ani v koši.'
+			'add_new_item'       => 'Přidat nabídku',
+			'new_item'           => 'Nová nabídka',
+			'edit_item'          => 'Upravit nabídku',
+			'view_item'          => 'Ukázat nabídku',
+			'all_items'          => 'Všechny nabídky',
+			'search_items'       => 'Hledat nabídky',
+			'parent_item_colon'  => 'Nadřazená nabídka:',
+			'not_found'          => 'Nabídky nenalezeny.',
+			'not_found_in_trash' => 'Nabídky nenalezeny ani v koši.'
 		);
 
 		register_post_type( 'cars', array(

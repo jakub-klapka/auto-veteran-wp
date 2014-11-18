@@ -1,9 +1,9 @@
 {
-    "key": "group_5465e850508b2",
+    "key": "group_546b0e416134d",
     "title": "Auto",
     "fields": [
         {
-            "key": "field_5465e85137337",
+            "key": "field_546b0e42ade5b",
             "label": "Obr\u00e1zek ve v\u00fdpisu aut",
             "name": "featured_image",
             "prefix": "",
@@ -21,7 +21,7 @@
             "library": "all"
         },
         {
-            "key": "field_5465e85137353",
+            "key": "field_546b0e42ade68",
             "label": "Auto prod\u00e1no",
             "name": "sold",
             "prefix": "",

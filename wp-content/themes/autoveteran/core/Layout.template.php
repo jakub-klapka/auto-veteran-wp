@@ -49,7 +49,7 @@ class Layout {
 			//fix url for sold archive
 			foreach( $languages as $key => $value ) {
 				$url = $value['url'];
-				$append = ( $key === 'cs' ) ? 'prodano' : 'sold';
+				$append = ( $key === 'cs' ) ? 'predchozi' : 'previous';
 				$languages[$key]['url'] = $url . $append . '/';
 			}
 		}

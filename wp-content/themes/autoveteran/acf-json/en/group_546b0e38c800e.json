@@ -1,9 +1,9 @@
 {
-    "key": "group_5464e294c53b3",
+    "key": "group_546b0e38c800e",
     "title": "Novinky",
     "fields": [
         {
-            "key": "field_5464e295d80da",
+            "key": "field_546b0e39d0eaa",
             "label": "Obr\u00e1zek novinky",
             "name": "news_featured_image",
             "prefix": "",
@@ -21,7 +21,7 @@
             "library": "all"
         },
         {
-            "key": "field_5464e295d80f7",
+            "key": "field_546b0e39d0ebb",
             "label": "Zobrazit na konci novinky v\u00fd\u0161e vlo\u017een\u00fd obr\u00e1zek v pln\u00e9 velikosti?",
             "name": "show_featured_in_news",
             "prefix": "",
@@ -38,7 +38,7 @@
             "default_value": 1
         },
         {
-            "key": "field_5464e295d8109",
+            "key": "field_546b0e39d0ec3",
             "label": "Obr\u00e1zek na konci novinky",
             "name": "image_in_news",
             "prefix": "",
@@ -48,7 +48,7 @@
             "conditional_logic": [
                 [
                     {
-                        "field": "field_5464e295d80f7",
+                        "field": "field_546b0e39d0ebb",
                         "operator": "!=",
                         "value": "1"
                     }

@@ -53,19 +53,28 @@ class VideosFeed {
 			return false;
 		}
 
-		return $matches[1];
+		$output = array();
+
+		$output['type'] = ( strpos( $url, 'channel' ) !== false ) ? 'channel' : 'user';
+		$output['designator'] = $matches[1];
+
+		return $output;
 
 	}
 
 	private function fetch_videos() {
 
-		$channel_id = $this->get_channel_id();
-		if( $channel_id === false ) {
+		$channel = $this->get_channel_id();
+		if( $channel === false ) {
 			return false;
 		}
 
+		$channel_id = $channel['designator'];
+		$channel_request_parameter = ( $channel['type'] === 'user' ) ? 'forUsername' : 'id';
+
 		//Get playlist
-		$channel_details = $this->request( 'channels?part=contentDetails&forUsername=' . $channel_id );
+
+		$channel_details = $this->request( 'channels?part=contentDetails&' . $channel_request_parameter . '=' . $channel_id );
 		if( $channel_details === false ) {
 			$this->log( 'Cannot get channel details.' );
 			return false;
