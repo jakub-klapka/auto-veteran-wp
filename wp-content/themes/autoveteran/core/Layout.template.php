@@ -8,13 +8,6 @@ use Lumi\Classes\MainMenuWalker;
 
 class Layout {
 
-	public function header_logo_url() {
-		if( is_front_page() ) {
-			return '//placehold.it/960x300';
-		} else {
-			return '//placehold.it/960x150';
-		}
-	}
 
 	public function get_main_menu() {
 		return wp_nav_menu( array(

@@ -23,7 +23,8 @@ class Layout {
 		wp_register_style( 'news', get_template_directory_uri() . '/assets/css/news.css', array( 'layout' ), LUMI_CSS_JS_VER );
 		wp_register_style( 'stock', get_template_directory_uri() . '/assets/css/stock.css', array( 'layout' ), LUMI_CSS_JS_VER );
 		wp_register_style( 'stock_detail', get_template_directory_uri() . '/assets/css/stock_detail.css', array( 'layout' ), LUMI_CSS_JS_VER );
-		wp_register_style( 'home', get_template_directory_uri() . '/assets/css/home.css', array( 'layout', 'stock', 'news' ), LUMI_CSS_JS_VER );
+		wp_register_style( 'slider', get_template_directory_uri() . '/assets/css/slider.css', array( 'layout' ), LUMI_CSS_JS_VER );
+		wp_register_style( 'home', get_template_directory_uri() . '/assets/css/home.css', array( 'layout', 'stock', 'news', 'slider' ), LUMI_CSS_JS_VER );
 
 
 		wp_deregister_script( 'jquery' );
@@ -32,10 +33,12 @@ class Layout {
 		wp_register_script( 'modernizr', get_template_directory_uri() . '/assets/js/libs/modernizr.js', array(), LUMI_CSS_JS_VER, true );
 		wp_register_script( 'fancybox', get_template_directory_uri() . '/assets/js/libs/jquery.fancybox.js', array( 'jquery' ), LUMI_CSS_JS_VER, true );
 		wp_register_script( 'trunk8', get_template_directory_uri() . '/assets/js/libs/trunk8.js', array( 'jquery' ), LUMI_CSS_JS_VER, true );
+		wp_register_script( 'nivo_slider', get_template_directory_uri() . '/assets/js/libs/jquery.nivo.slider.js', array( 'jquery' ), LUMI_CSS_JS_VER, true );
 
 		wp_register_script( 'stock_gallery', get_template_directory_uri() . '/assets/js/stock_gallery.js', array( 'jquery', 'fancybox' ), LUMI_CSS_JS_VER, true );
 		wp_register_script( 'contact', get_template_directory_uri() . '/assets/js/contact_us.js', array( 'jquery', 'autosize' ), LUMI_CSS_JS_VER, true );
 		wp_register_script( 'video_carousel', get_template_directory_uri() . '/assets/js/video_carousel.js', array( 'jquery', 'trunk8' ), LUMI_CSS_JS_VER, true );
+		wp_register_script( 'slider', get_template_directory_uri() . '/assets/js/slider.js', array( 'jquery', 'nivo_slider' ), LUMI_CSS_JS_VER, true );
 
 
 	}

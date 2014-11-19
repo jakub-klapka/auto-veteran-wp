@@ -18,6 +18,9 @@ $h->enqueue_scripts();
 			<?php if( $links ): foreach( $links as $link ) : ?>
 				<a class="home_about_us__button" href="<?= $link['link']; ?>"><?= $link['text']; ?></a>
 			<?php endforeach; endif ?>
+			<?php if( get_field( 'about_us_page' ) ) : ?>
+				<a class="content_block_section__more_link" href="<?php the_field( 'about_us_page' ); ?>"><?php _e( 'Více o nás', LUMI_TEXTDOMAIN ); ?></a>
+			<?php endif; ?>
 		</section>
 
 		<section class="content_block_row__big content_block_section has-header home_recent_videos" data-video-carousel>
@@ -43,7 +46,7 @@ $h->enqueue_scripts();
 			</div>
 
 			<?php if( get_field( 'videos_link' ) ) : ?>
-				<a class="content_block_section__more_link" href="<?php the_field( 'videos_link' ); ?>"><?php _e( 'Více', LUMI_TEXTDOMAIN ); ?></a>
+				<a class="content_block_section__more_link" href="<?php the_field( 'videos_link' ); ?>"><?php _e( 'Více videí', LUMI_TEXTDOMAIN ); ?></a>
 			<?php endif; ?>
 		</section>
 	</div>
@@ -55,7 +58,7 @@ $h->enqueue_scripts();
 		<?php get_template_part( 'template_part_stock_items' ); ?>
 
 		<?php if( get_field( 'stock_link' ) ) : ?>
-			<a class="content_block_section__more_link" href="<?php the_field( 'stock_link' ); ?>"><?php _e( 'Více', LUMI_TEXTDOMAIN ); ?></a>
+			<a class="content_block_section__more_link" href="<?php the_field( 'stock_link' ); ?>"><?php _e( 'Více nabídek', LUMI_TEXTDOMAIN ); ?></a>
 		<?php endif; ?>
 	</section>
 
@@ -67,12 +70,12 @@ $h->enqueue_scripts();
 			<?php $news_query = $h->set_news_query(); ?>
 			<?php get_template_part( 'template_part_news_items' ); ?>
 
-			<?php if( get_field( 'news_link' ) ) : ?>
-				<a class="content_block_section__more_link" href="<?php the_field( 'news_link' ); ?>"><?php _e( 'Více', LUMI_TEXTDOMAIN ); ?></a>
+			<?php if( get_field( 'news_page' ) ) : ?>
+				<a class="content_block_section__more_link" href="<?php the_field( 'news_page' ); ?>"><?php _e( 'Více novinek', LUMI_TEXTDOMAIN ); ?></a>
 			<?php endif; ?>
 		</section>
 
-		<?php $news_sidebar_header = __( 'Nevím co sem', LUMI_TEXTDOMAIN ); ?>
+		<?php $news_sidebar_header = __( 'Náš Facebook', LUMI_TEXTDOMAIN ); ?>
 		<?php get_template_part( 'template_part_news_sidebar' ); ?>
 		<?php $news_sidebar_header = false; ?>
 

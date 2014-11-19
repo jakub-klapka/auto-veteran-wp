@@ -7,7 +7,7 @@
 		<section class="content_block_row__big content_block_section news" role="main" itemprop="mainContentOfPage">
 
 			<div class="typo news_heading">
-				<h1><?php _e( 'Archív novinek', LUMI_TEXTDOMAIN ); ?></h1>
+				<h1><?php _e( 'Novinky', LUMI_TEXTDOMAIN ); ?></h1>
 			</div>
 
 			<?php global $wp_query; $news_query = $wp_query; ?>

@@ -15,8 +15,8 @@ class Home {
 	public function enqueue_scripts_cb() {
 		wp_enqueue_style( 'home' );
 		wp_enqueue_script( 'modernizr' );
-		wp_enqueue_script( 'modernizr' );
 		wp_enqueue_script( 'video_carousel' );
+		wp_enqueue_script( 'slider' );
 	}
 
 	public function get_videos() {

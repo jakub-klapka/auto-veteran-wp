@@ -32,7 +32,24 @@
 <div class="page_wrap">
 
 	<header class="main_header" itemscope itemtype="http://schema.org/WPHeader">
-		<img src="<?= $l->header_logo_url(); ?>" alt="Auto Veteran" class="main_header__image" itemprop="image"/>
+		<?php if( basename( get_page_template() ) === 'template_home.php' ) : ?>
+			<?php $slider = get_field( 'slider' ); ?>
+			<div id="nivo_slider" class="nivoSlider main_header__image" data-timeout="<?php the_field( 'slider_timeout' ); ?>">
+				<?php $i = 1; foreach( $slider as $item ) : ?>
+					<img <?php if( $i !== 1 ) : ?>data-<?php endif; ?>src="<?= $item['sizes']['slider']; ?>"
+					     width="<?= $item['sizes']['slider-width']; ?>"
+					     height="<?= $item['sizes']['slider-height']; ?>"
+					     title="<?= $item['caption']; ?>"
+					     alt="<?= $item['alt']; ?>" />
+				<?php $i++; endforeach; ?>
+			</div>
+		<?php else : ?>
+			<?php $image = get_field( 'header_image', 'option' ); ?>
+			<img src="<?= $image['sizes']['header_image']; ?>"
+			     width="<?= $image['sizes']['header_image-width']; ?>"
+			     height="<?= $image['sizes']['header_image-height']; ?>"
+			     alt="Auto Veteran" class="main_header__image" itemprop="image"/>
+		<?php endif; ?>
 
 		<nav class="main_header__nav" role="navigation">
 			<?= $l->get_main_menu(); ?>

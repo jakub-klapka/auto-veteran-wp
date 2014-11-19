@@ -10,6 +10,8 @@ class Layout {
 
 		add_action( 'after_setup_theme', array( $this, 'register_nav_menu' ) );
 		add_action( 'after_setup_theme', array( $this, 'load_textdomain' ) );
+
+		add_image_size( 'header_image', 960, 150, true );
 	
 	}
 

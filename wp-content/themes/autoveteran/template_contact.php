@@ -18,25 +18,25 @@ $c->enqueue_styles();
 				<table class="contact_us__address_table" itemscope itemtype="http://schema.org/Organization">
 					<?php if( get_field( 'address' ) ) : ?>
 						<tr>
-							<td><?php _e( 'Adresa', LUMI_TEXTDOMAIN ); ?>:</td>
+							<td class="contact_us__label"><?php _e( 'Adresa', LUMI_TEXTDOMAIN ); ?>:</td>
 							<td><address itemprop="address"><?= $c->bold_first_line( get_field( 'address' ) ); ?></address></td>
 						</tr>
 					<?php endif; ?>
 					<?php if( get_field( 'tel' ) ) : ?>
 						<tr>
-							<td><?php _e( 'Telefon', LUMI_TEXTDOMAIN ); ?>:</td>
+							<td class="contact_us__label"><?php _e( 'Telefon', LUMI_TEXTDOMAIN ); ?>:</td>
 							<td><tel itemprop="telephone"><?php the_field( 'tel' ); ?></tel></td>
 						</tr>
 					<?php endif; ?>
 					<?php if( get_field( 'mobile' ) ) : ?>
 						<tr>
-							<td><?php _e( 'Mobilní telefon', LUMI_TEXTDOMAIN ); ?>:</td>
+							<td class="contact_us__label"><?php _e( 'Mobilní telefon', LUMI_TEXTDOMAIN ); ?>:</td>
 							<td><tel itemprop="telephone"><?php the_field( 'mobile' ); ?></tel></td>
 						</tr>
 					<?php endif; ?>
 					<?php if( get_field( 'email' ) ) : ?>
 						<tr>
-							<td><?php _e( 'E-mail', LUMI_TEXTDOMAIN ); ?>:</td>
+							<td class="contact_us__label"><?php _e( 'E-mail', LUMI_TEXTDOMAIN ); ?>:</td>
 							<td itemprop="email"><?= do_shortcode( '[lumi-email]' . get_field( 'email' ) . '[/lumi-email]' ); ?></td>
 						</tr>
 					<?php endif; ?>
@@ -46,8 +46,8 @@ $c->enqueue_styles();
 					<tr>
 						<?php if( get_field( 'ic' ) || get_field( 'dic' ) ) : ?>
 							<td>
-								<?php if( get_field( 'ic' ) ) : ?><?php _e( 'IČ', LUMI_TEXTDOMAIN ); ?>: <?php the_field( 'ic' ); ?><br/><?php endif; ?>
-								<?php if( get_field( 'dic' ) ) : ?><?php _e( 'DIČ', LUMI_TEXTDOMAIN ); ?>: <?php the_field( 'dic' ); ?><?php endif; ?>
+								<?php if( get_field( 'ic' ) ) : ?><span class="contact_us__label"><?php _e( 'IČ', LUMI_TEXTDOMAIN ); ?>:</span> <?php the_field( 'ic' ); ?><br/><?php endif; ?>
+								<?php if( get_field( 'dic' ) ) : ?><span class="contact_us__label"><?php _e( 'DIČ', LUMI_TEXTDOMAIN ); ?>:</span> <?php the_field( 'dic' ); ?><?php endif; ?>
 							</td>
 						<?php endif; ?>
 						<?php if( get_field( 'ident_info' ) ) : ?>
@@ -65,19 +65,19 @@ $c->enqueue_styles();
 				<table class="contact_us__address_table">
 					<?php if( get_field( 'position_name' ) ) : ?>
 						<tr>
-							<td><?php _e( 'Jméno', LUMI_TEXTDOMAIN ); ?>:</td>
+							<td class="contact_us__label"><?php _e( 'Jméno', LUMI_TEXTDOMAIN ); ?>:</td>
 							<td><strong><?php the_field( 'position_name' ); ?></strong></td>
 						</tr>
 					<?php endif; ?>
 					<?php if( get_field( 'position_tel' ) ) : ?>
 						<tr>
-							<td><?php _e( 'Telefon', LUMI_TEXTDOMAIN ); ?>:</td>
+							<td class="contact_us__label"><?php _e( 'Telefon', LUMI_TEXTDOMAIN ); ?>:</td>
 							<td><?php the_field( 'position_tel' ); ?></td>
 						</tr>
 					<?php endif; ?>
 					<?php if( get_field( 'position_email' ) ) : ?>
 						<tr>
-							<td><?php _e( 'E-mail', LUMI_TEXTDOMAIN ); ?>:</td>
+							<td class="contact_us__label"><?php _e( 'E-mail', LUMI_TEXTDOMAIN ); ?>:</td>
 							<td><?= do_shortcode( '[lumi-email]' . get_field( 'position_email' ) . '[/lumi-email]' ); ?></td>
 						</tr>
 					<?php endif; ?>
@@ -101,7 +101,7 @@ $c->enqueue_styles();
 
 		</div>
 
-		<a class="contact_us__map" href="<?php the_field( 'map_link' ); ?>">
+		<a class="contact_us__map" href="<?php the_field( 'map_link' ); ?>" target="_blank">
 			<img src="<?= get_template_directory_uri(); ?>/assets/images/contact_map_<?= ICL_LANGUAGE_CODE; ?>.png" alt="<?php _e( 'AVC na mapě', LUMI_TEXTDOMAIN ); ?>"/>
 			<div class="contact_us__map__button"><?php _e( 'Zvětšit mapu', LUMI_TEXTDOMAIN ); ?></div>
 		</a>

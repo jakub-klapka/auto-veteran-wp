@@ -1,0 +1,1 @@
+!function(e){e(window).load(function(){var a=e("#nivo_slider");a.find("img[data-src]").each(function(){var a=e(this);a.attr("src",a.data("src"))}),a.nivoSlider({effect:"fade",slices:1,animSpeed:1e3,pauseTime:a.data("timeout"),directionNav:!0,controlNav:!1,controlNavThumbs:!1,pauseOnHover:!0,manualAdvance:!1,prevText:"Prev",nextText:"Next",randomStart:!1})})}(jQuery);

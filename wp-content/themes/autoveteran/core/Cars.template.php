@@ -12,7 +12,6 @@ class Cars {
 
 	public function enqueue_styles_cb() {
 		wp_enqueue_style( 'stock_detail' );
-		wp_enqueue_script( 'modernizr' );
 		wp_enqueue_script( 'stock_gallery' );
 	}
 

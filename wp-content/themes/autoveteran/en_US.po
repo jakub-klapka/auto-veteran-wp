@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Tue Nov 18 2014 18:23:19 GMT+0100 (Střední Evropa (běžný "
 "čas))\n"
-"PO-Revision-Date: Tue Nov 18 2014 18:28:18 GMT+0100 (Střední Evropa (běžný "
+"PO-Revision-Date: Wed Nov 19 2014 12:25:25 GMT+0100 (Střední Evropa (běžný "
 "čas))\n"
 "Last-Translator: Jakub Klapka <lapak@lumiart.cz>\n"
 "Language-Team: \n"
@@ -24,7 +24,7 @@ msgstr ""
 "X-Generator: Loco - https://localise.biz/\n"
 "X-Loco-Target-Locale: en_US"
 
-#: archive-cars.php:8 /template_home.php:52
+#: archive-cars.php:8 /template_home.php:55
 msgid "Aktuální nabídka"
 msgstr "Current stock"
 
@@ -32,9 +32,9 @@ msgstr "Current stock"
 msgid "Předchozí nabídka"
 msgstr "Previous stock"
 
-#: archive-news.php:10
-msgid "Archív novinek"
-msgstr "News archive"
+#: archive-news.php:10 /template_home.php:68
+msgid "Novinky"
+msgstr "News"
 
 #: template_contact.php:21
 msgid "Adresa"
@@ -80,21 +80,29 @@ msgstr "Enlarge map"
 msgid "O nás"
 msgstr "About us"
 
-#: template_home.php:27
+#: template_home.php:22
+msgid "Více o nás"
+msgstr "More about us"
+
+#: template_home.php:30
 msgid "Nejnovejší videa"
 msgstr "Newest videos"
 
-#: template_home.php:46 /template_home.php:58 /template_home.php:71
-msgid "Více"
-msgstr "More"
+#: template_home.php:49
+msgid "Více videí"
+msgstr "More videos"
 
-#: template_home.php:65
-msgid "Novinky"
-msgstr "News"
+#: template_home.php:61
+msgid "Více nabídek"
+msgstr "More offers"
 
-#: template_home.php:75
-msgid "Nevím co sem"
-msgstr ""
+#: template_home.php:74
+msgid "Více novinek"
+msgstr "More news"
+
+#: template_home.php:78
+msgid "Náš Facebook"
+msgstr "Our Facebook page"
 
 #: template_videa.php:30
 msgid "Youtube kanál"
@@ -107,7 +115,7 @@ msgstr "Subscribe"
 #: core/Cars.glob.php:47
 msgctxt "URL slug"
 msgid "nabidka"
-msgstr "stock"
+msgstr ""
 
 #: core/CarsArchive.admin.php:19
 msgid "Seznam aut"
@@ -116,7 +124,7 @@ msgstr "Cars list"
 #: core/News.glob.php:42
 msgctxt "URL slug"
 msgid "novinky"
-msgstr "news"
+msgstr ""
 
 #: core/NewsArchive.template.php:31
 msgid "«"
