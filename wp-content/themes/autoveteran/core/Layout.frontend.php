@@ -11,7 +11,11 @@ class Layout {
 		add_action( 'wp_enqueue_scripts', array( $this, 'register_scripts' ) );
 
 		add_filter( 'excerpt_more', array( $this, 'excerpt_more' ) );
-	
+
+		add_action( 'init', function(){
+			add_action( 'wp_print_scripts', array( $this, 'move_wpml_to_footer' ) );
+		} );
+
 	}
 
 	public function register_scripts() {
@@ -40,6 +44,9 @@ class Layout {
 		wp_register_script( 'video_carousel', get_template_directory_uri() . '/assets/js/video_carousel.js', array( 'jquery', 'trunk8' ), LUMI_CSS_JS_VER, true );
 		wp_register_script( 'slider', get_template_directory_uri() . '/assets/js/slider.js', array( 'jquery', 'nivo_slider' ), LUMI_CSS_JS_VER, true );
 
+		//slider on every page:
+		wp_enqueue_style( 'slider' );
+		wp_enqueue_script( 'slider' );
 
 	}
 
@@ -47,5 +54,12 @@ class Layout {
 		return '...';
 	}
 
+	public function move_wpml_to_footer() {
+		global $wp_scripts;
+		if( isset( $wp_scripts->registered['wpml-browser-redirect'] ) && isset( $wp_scripts->registered['jquery.cookie'] ) ) {
+			$wp_scripts->registered['jquery.cookie']->extra['group'] = 1;
+			$wp_scripts->registered['wpml-browser-redirect']->extra['group'] = 1;
+		}
+	}
 
 }

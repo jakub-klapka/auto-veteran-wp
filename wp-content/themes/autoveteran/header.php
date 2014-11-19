@@ -32,9 +32,9 @@
 <div class="page_wrap">
 
 	<header class="main_header" itemscope itemtype="http://schema.org/WPHeader">
-		<?php if( basename( get_page_template() ) === 'template_home.php' ) : ?>
-			<?php $slider = get_field( 'slider' ); ?>
-			<div id="nivo_slider" class="nivoSlider main_header__image" data-timeout="<?php the_field( 'slider_timeout' ); ?>">
+		<?php //if( basename( get_page_template() ) === 'template_home.php' ) : ?>
+			<?php $slider = get_field( 'slider', 'option' ); ?>
+			<div id="nivo_slider" class="nivoSlider main_header__image" data-timeout="<?php the_field( 'slider_timeout', 'option' ); ?>">
 				<?php $i = 1; foreach( $slider as $item ) : ?>
 					<img <?php if( $i !== 1 ) : ?>data-<?php endif; ?>src="<?= $item['sizes']['slider']; ?>"
 					     width="<?= $item['sizes']['slider-width']; ?>"
@@ -43,13 +43,16 @@
 					     alt="<?= $item['alt']; ?>" />
 				<?php $i++; endforeach; ?>
 			</div>
-		<?php else : ?>
+			<a href="<?php bloginfo('url'); ?>" class="main_header__logo">
+				<img src="<?= get_template_directory_uri(); ?>/assets/images/header_logo.svg" alt="AVC Logo" width="250" height="55"/>
+			</a>
+		<?php/* else : ?>
 			<?php $image = get_field( 'header_image', 'option' ); ?>
 			<img src="<?= $image['sizes']['header_image']; ?>"
 			     width="<?= $image['sizes']['header_image-width']; ?>"
 			     height="<?= $image['sizes']['header_image-height']; ?>"
 			     alt="Auto Veteran" class="main_header__image" itemprop="image"/>
-		<?php endif; ?>
+		<?php endif; */?>
 
 		<nav class="main_header__nav" role="navigation">
 			<?= $l->get_main_menu(); ?>
