@@ -44,7 +44,7 @@
 				<?php $i++; endforeach; ?>
 			</div>
 			<a href="<?php bloginfo('url'); ?>" class="main_header__logo">
-				<img src="<?= get_template_directory_uri(); ?>/assets/images/header_logo.svg" alt="AVC Logo" width="250" height="55"/>
+				<img src="<?= get_template_directory_uri(); ?>/assets/images/header_logo.png" alt="AVC Logo" width="260" height="60"/>
 			</a>
 		<?php/* else : ?>
 			<?php $image = get_field( 'header_image', 'option' ); ?>
