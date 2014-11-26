@@ -71,7 +71,7 @@ $c->enqueue_styles();
 					<?php endif; ?>
 					<?php if( get_field( 'position_tel' ) ) : ?>
 						<tr>
-							<td class="contact_us__label"><?php _e( 'Telefon', LUMI_TEXTDOMAIN ); ?>:</td>
+							<td class="contact_us__label"><?php _e( 'Mobilní telefon', LUMI_TEXTDOMAIN ); ?>:</td>
 							<td><?php the_field( 'position_tel' ); ?></td>
 						</tr>
 					<?php endif; ?>

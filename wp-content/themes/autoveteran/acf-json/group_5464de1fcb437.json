@@ -49,6 +49,7 @@
                 "id": ""
             },
             "choices": {
+                "3HfdSBUOMQw": "Walter Super 6",
                 "82QKFiL7RA0": "AVC Rolls Royce Legends",
                 "nmKw-ijQDHI": "The Legend: Hispano Suiza"
             },
@@ -244,6 +245,143 @@
             "min": "",
             "max": "",
             "step": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5474d97a6dbc6",
+            "label": "SEO nastaven\u00ed",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_5474d9926dbc7",
+            "label": "N\u00e1zev webu",
+            "name": "blogname",
+            "prefix": "",
+            "type": "text",
+            "instructions": "Tento text se objevuje v z\u00e1hlav\u00ed prohl\u00ed\u017ee\u010de.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5474d9b36dbc8",
+            "label": "Popis webu",
+            "name": "blogdescription",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "Tento text bude pou\u017eit jako popis odkazu ve vyhled\u00e1va\u010d\u00edch, pokud na str\u00e1nce nen\u00ed \u017e\u00e1dn\u00fd text a ru\u010dn\u011b nevypln\u00edte pole SEO popis na dan\u00e9 str\u00e1nce.<br\/>\r\nTento text by m\u011bl shrnovat obsah webu a nem\u011bl by b\u00fdt del\u0161\u00ed ne\u017e 156 znak\u016f.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5475b6f11c57e",
+            "label": "Kontaktn\u00ed formul\u00e1\u0159",
+            "name": "",
+            "prefix": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "key": "field_5475b6fb1c57f",
+            "label": "E-mail administr\u00e1tora",
+            "name": "cf_admin_email",
+            "prefix": "",
+            "type": "email",
+            "instructions": "Na tento e-mail budou doru\u010dov\u00e1ny nov\u00e9 zpr\u00e1vy z konktatn\u00edho formul\u00e1\u0159e.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_5475bfa3c3d20",
+            "label": "Potvrzuj\u00edc\u00ed zpr\u00e1va pro odes\u00edlatele formul\u00e1\u0159e",
+            "name": "cf_notif_message",
+            "prefix": "",
+            "type": "textarea",
+            "instructions": "Tato zpr\u00e1va bude zasl\u00e1na z\u00e1kazn\u00edkovi jako potvrzen\u00ed, \u017ee do\u0161lo k \u00fasp\u011b\u0161n\u00e9mu odesl\u00e1n\u00ed kontaktn\u00edho formul\u00e1\u0159e.<br \/>\r\nM\u016f\u017eete pou\u017e\u00edvat tyto dynamick\u00e9 tagy:<br \/>\r\n<em>[name]<\/em> - z\u00e1kazn\u00edkovo jm\u00e9no<br \/>\r\n<em>[email]<\/em> - z\u00e1kazn\u00edk\u016fv e-mail<br \/>\r\n<em>[message]<\/em> - z\u00e1kazn\u00edkova zpr\u00e1va",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5475c29301924",
+            "label": "P\u0159edm\u011bt potvrzuj\u00edc\u00ed zpr\u00e1vy",
+            "name": "cf_notif_subject",
+            "prefix": "",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
             "readonly": 0,
             "disabled": 0
         }

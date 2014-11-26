@@ -146,6 +146,12 @@ class VideosFeed {
 		if( $data_in_db === false || $force_fetch ) {
 			//process videos
 			$videos = $this->fetch_videos();
+
+			if( $videos === false ) {
+				$this->log( 'No videos, using old array' );
+				return $data_in_db;
+			}
+
 			$videos = $this->top_video( $videos );
 
 			//check for cache

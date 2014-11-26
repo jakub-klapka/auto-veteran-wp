@@ -18,7 +18,7 @@ class PluginModification {
 		 * ACF cache delete
 		 */
 		add_filter( 'acf/save_post', function($post_id) {
-			if( $post_id === 'options' ) {
+			if( $post_id === 'options' || $post_id === 'options_' . ICL_LANGUAGE_CODE ) {
 				if( function_exists( 'wp_cache_clear_cache' ) ){
 					wp_cache_clear_cache();
 				}

@@ -38,6 +38,9 @@ class PluginModification {
 
 		add_filter( 'rewrite_rules_array', array( $this, 'clean_rewrite' ) );
 
+		add_filter( 'pre_option_blogname', array( $this, 'bloginfo_acf_wpml_blogname' ) );
+		add_filter( 'pre_option_blogdescription', array( $this, 'bloginfo_acf_wpml_blogdescription' ) );
+
 	}
 
 	public function unregister_widgets()
@@ -77,5 +80,14 @@ class PluginModification {
 		}
 		return $rules;
 	}
+
+	public function bloginfo_acf_wpml_blogname(  ) {
+		return get_field( 'blogname', 'option' );
+	}
+
+	public function bloginfo_acf_wpml_blogdescription(  ) {
+		return get_field( 'blogdescription', 'option' );
+	}
+
 
 }
