@@ -17,7 +17,7 @@ class News {
 	public function register_cpt() {
 
 		$labels = array(
-			'name'               => 'Novinky',
+			'name'               => __( 'Novinky', LUMI_TEXTDOMAIN ),
 			'singular_name'      => 'Novinka',
 			'menu_name'          => 'Novinky',
 			'name_admin_bar'     => 'Přidat novinku',

@@ -1,0 +1,56 @@
+{
+    "key": "group_5465e7a6a12a6",
+    "title": "Nab\u00eddka",
+    "fields": [
+        {
+            "key": "field_5465e7b643cde",
+            "label": "Obr\u00e1zek ve v\u00fdpisu aut",
+            "name": "featured_image",
+            "prefix": "",
+            "type": "image",
+            "instructions": "Tento obr\u00e1zek bude zobrazen ve v\u00fdpisu aut a na hlavn\u00ed stran\u011b.<br \/>\r\nObr\u00e1zek bude zmen\u0161en p\u0159esn\u011b na 200x135px.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "thumbnail",
+            "library": "all"
+        },
+        {
+            "key": "field_5465e81043cdf",
+            "label": "Auto prod\u00e1no",
+            "name": "sold",
+            "prefix": "",
+            "type": "true_false",
+            "instructions": "Za\u0161krtnut\u00edm bude auto vy\u0159azeno z aktu\u00e1ln\u00ed nab\u00eddky a nebude zobrazeno ani na hlavn\u00ed stran\u011b.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Ano",
+            "default_value": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "cars"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "side",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "field",
+    "hide_on_screen": ""
+}

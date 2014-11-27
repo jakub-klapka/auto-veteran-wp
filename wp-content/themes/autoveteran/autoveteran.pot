@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Tue Nov 18 2014 18:23:19 GMT+0100 (Střední Evropa (běžný "
 "čas))\n"
-"POT-Revision-Date: Wed Nov 19 2014 12:23:10 GMT+0100 (Střední Evropa (běžný "
+"POT-Revision-Date: Thu Nov 27 2014 14:07:11 GMT+0100 (Střední Evropa (běžný "
 "čas))\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
@@ -30,11 +30,12 @@ msgstr ""
 msgid "Aktuální nabídka"
 msgstr ""
 
-#: /archive-cars.php:8
+#: /archive-cars.php:8 /core/ACFField.glob.php:41
 msgid "Předchozí nabídka"
 msgstr ""
 
-#: /archive-news.php:10 /template_home.php:68
+#: /archive-news.php:10 /template_home.php:68 /core/ACFField.glob.php:35 
+#: /core/News.glob.php:20
 msgid "Novinky"
 msgstr ""
 
@@ -42,11 +43,11 @@ msgstr ""
 msgid "Adresa"
 msgstr ""
 
-#: /template_contact.php:27 /template_contact.php:74
+#: /template_contact.php:27
 msgid "Telefon"
 msgstr ""
 
-#: /template_contact.php:33
+#: /template_contact.php:33 /template_contact.php:74
 msgid "Mobilní telefon"
 msgstr ""
 
@@ -114,6 +115,14 @@ msgstr ""
 msgid "Odebírat"
 msgstr ""
 
+#: /core/ACFField.glob.php:38
+msgid "Nabídka"
+msgstr ""
+
+#: /core/Cars.glob.php:25
+msgid "Nabídky"
+msgstr ""
+
 #: /core/Cars.glob.php:47
 msgctxt "URL slug"
 msgid "nabidka"
@@ -134,4 +143,40 @@ msgstr ""
 
 #: /core/NewsArchive.template.php:32
 msgid "»"
+msgstr ""
+
+#: /core/inc/activity_widget.php:51
+#, php-format
+msgid "Ukázat %s dalších…"
+msgstr ""
+
+#: /core/inc/activity_widget.php:67
+msgid "Dnes"
+msgstr ""
+
+#: /core/inc/activity_widget.php:69
+msgid "Zítra"
+msgstr ""
+
+#. translators: date and time format for recent posts on the dashboard, see http://php.net/date
+#: /core/inc/activity_widget.php:72
+msgid "j.n.Y"
+msgstr ""
+
+#. translators: 1: relative date, 2: time, 4: post title
+#: /core/inc/activity_widget.php:77
+#, php-format
+msgid "<span>%1$s, %2$s</span> <a href=\"%3$s\">%4$s</a>"
+msgstr ""
+
+#: /core/inc/activity_widget.php:112
+msgid "Bude brzo publikováno"
+msgstr ""
+
+#: /core/inc/activity_widget.php:122
+msgid "Nedávno publikováno"
+msgstr ""
+
+#: /core/inc/activity_widget.php:131
+msgid "Zatím žádná aktivita"
 msgstr ""

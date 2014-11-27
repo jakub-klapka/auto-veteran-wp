@@ -32,7 +32,27 @@ class PluginModification {
 
 		add_action( 'after_setup_theme', array( $this, 'add_editor_style' ) );
 
+		/*
+		* Remove media attachement box in admin
+		*/
+		global $WPML_media;
+		remove_action( 'icl_post_languages_options_after', array( $WPML_media, 'language_options' ) );
 
+		/*
+		Remove proffesional translation
+		*/
+		add_action( 'init', function(){
+			global $WPML_Translation_Management;
+			remove_action('icl_post_languages_options_before', array($WPML_Translation_Management, 'icl_post_languages_options_before'));
+		} );
+
+		add_action( 'admin_enqueue_scripts', array( $this, 'global_admin_modifs' ) );
+
+
+	}
+
+	public function global_admin_modifs() {
+		wp_enqueue_script( 'admin_modifs', get_template_directory_uri() . '/assets/global_admin_modifs.js', array( 'jquery' ), LUMI_CSS_JS_VER, true );
 	}
 
 	public function aiowps_disable_server_signature( $rules ) {

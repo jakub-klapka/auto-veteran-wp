@@ -1,0 +1,37 @@
+{
+    "key": "group_5476eeb20859a",
+    "title": "Info",
+    "fields": [
+        {
+            "key": "field_5476eed4200c9",
+            "label": "Info",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Jazyky v Obecn\u00e9m nastaven\u00ed p\u0159epnete ovlada\u010dem v horn\u00ed \u010d\u00e1sti str\u00e1nek."
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "options_page",
+                "operator": "==",
+                "value": "theme-options"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": ""
+}

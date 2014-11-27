@@ -59,7 +59,7 @@
         },
         {
             "key": "field_546352d6567dd",
-            "label": "Odkaz zakladatele",
+            "label": "Odkaz na str\u00e1nku zakladatele",
             "name": "founder_link",
             "prefix": "",
             "type": "page_link",

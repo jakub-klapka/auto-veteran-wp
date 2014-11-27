@@ -1,0 +1,37 @@
+{
+    "key": "group_5476eabc12cae",
+    "title": "Videa - head",
+    "fields": [
+        {
+            "key": "field_5476ead93065e",
+            "label": "Info",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Hlavn\u00ed obsah str\u00e1nky se ukazuje nad v\u00fdpisem v\u0161ech vide\u00ed. Nen\u00ed nutn\u00e9 jej vypl\u0148ovat."
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_videa.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": ""
+}

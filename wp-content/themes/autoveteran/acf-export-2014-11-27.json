@@ -1,0 +1,1652 @@
+[
+    {
+        "key": "group_5469f15485660",
+        "title": "Hlavn\u00ed strana",
+        "fields": [
+            {
+                "key": "field_5469f16350c54",
+                "label": "Odkazy v sekci \"O n\u00e1s\"",
+                "name": "about_us_links",
+                "prefix": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "table",
+                "button_label": "P\u0159idat odkaz",
+                "sub_fields": [
+                    {
+                        "key": "field_5469f18650c55",
+                        "label": "Text odkazu",
+                        "name": "text",
+                        "prefix": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_5469f18f50c56",
+                        "label": "Odkaz",
+                        "name": "link",
+                        "prefix": "",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "http:\/\/localhost\/auto-veteran\/wp\/test-2\/": "test",
+                            "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/ivo-smutny\/": "Ivo Smutn\u00fd",
+                            "http:\/\/localhost\/auto-veteran\/wp\/kontakt\/": "Kontakt",
+                            "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/": "O n\u00e1s",
+                            "http:\/\/localhost\/auto-veteran\/wp\/videa\/": "Videa",
+                            "http:\/\/localhost\/auto-veteran\/wp\/sluzby\/": "Slu\u017eby",
+                            "http:\/\/localhost\/auto-veteran\/wp\/": "Home",
+                            "http:\/\/localhost\/auto-veteran\/wp\/novinky\/": "Novinky",
+                            "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/": "Nab\u00eddka",
+                            "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/predchozi\/": "P\u0159edchoz\u00ed nab\u00eddka"
+                        },
+                        "default_value": [],
+                        "allow_null": 1,
+                        "multiple": 0,
+                        "ui": 1,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "disabled": 0,
+                        "readonly": 0
+                    }
+                ]
+            },
+            {
+                "key": "field_5469fb9deea0a",
+                "label": "Str\u00e1nka s videi",
+                "name": "videos_link",
+                "prefix": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "http:\/\/localhost\/auto-veteran\/wp\/test-2\/": "test",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/ivo-smutny\/": "Ivo Smutn\u00fd",
+                    "http:\/\/localhost\/auto-veteran\/wp\/kontakt\/": "Kontakt",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/": "O n\u00e1s",
+                    "http:\/\/localhost\/auto-veteran\/wp\/videa\/": "Videa",
+                    "http:\/\/localhost\/auto-veteran\/wp\/sluzby\/": "Slu\u017eby",
+                    "http:\/\/localhost\/auto-veteran\/wp\/": "Home",
+                    "http:\/\/localhost\/auto-veteran\/wp\/novinky\/": "Novinky",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/": "Nab\u00eddka",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/predchozi\/": "P\u0159edchoz\u00ed nab\u00eddka"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_546a1e83f37b5",
+                "label": "Str\u00e1nka s nab\u00eddkou",
+                "name": "stock_link",
+                "prefix": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "http:\/\/localhost\/auto-veteran\/wp\/test-2\/": "test",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/ivo-smutny\/": "Ivo Smutn\u00fd",
+                    "http:\/\/localhost\/auto-veteran\/wp\/kontakt\/": "Kontakt",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/": "O n\u00e1s",
+                    "http:\/\/localhost\/auto-veteran\/wp\/videa\/": "Videa",
+                    "http:\/\/localhost\/auto-veteran\/wp\/sluzby\/": "Slu\u017eby",
+                    "http:\/\/localhost\/auto-veteran\/wp\/": "Home",
+                    "http:\/\/localhost\/auto-veteran\/wp\/novinky\/": "Novinky",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/": "Nab\u00eddka",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/predchozi\/": "P\u0159edchoz\u00ed nab\u00eddka"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_546a23991a118",
+                "label": "Str\u00e1nka s novinkami",
+                "name": "news_page",
+                "prefix": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "http:\/\/localhost\/auto-veteran\/wp\/test-2\/": "test",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/ivo-smutny\/": "Ivo Smutn\u00fd",
+                    "http:\/\/localhost\/auto-veteran\/wp\/kontakt\/": "Kontakt",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/": "O n\u00e1s",
+                    "http:\/\/localhost\/auto-veteran\/wp\/videa\/": "Videa",
+                    "http:\/\/localhost\/auto-veteran\/wp\/sluzby\/": "Slu\u017eby",
+                    "http:\/\/localhost\/auto-veteran\/wp\/": "Home",
+                    "http:\/\/localhost\/auto-veteran\/wp\/novinky\/": "Novinky",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/": "Nab\u00eddka",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/predchozi\/": "P\u0159edchoz\u00ed nab\u00eddka"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_546c77f710260",
+                "label": "Str\u00e1nka O n\u00e1s",
+                "name": "about_us_page",
+                "prefix": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "http:\/\/localhost\/auto-veteran\/wp\/test-2\/": "test",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/ivo-smutny\/": "Ivo Smutn\u00fd",
+                    "http:\/\/localhost\/auto-veteran\/wp\/kontakt\/": "Kontakt",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/": "O n\u00e1s",
+                    "http:\/\/localhost\/auto-veteran\/wp\/videa\/": "Videa",
+                    "http:\/\/localhost\/auto-veteran\/wp\/sluzby\/": "Slu\u017eby",
+                    "http:\/\/localhost\/auto-veteran\/wp\/": "Home",
+                    "http:\/\/localhost\/auto-veteran\/wp\/novinky\/": "Novinky",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/": "Nab\u00eddka",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/predchozi\/": "P\u0159edchoz\u00ed nab\u00eddka"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template_home.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_5476ea2583759",
+        "title": "Home - head",
+        "fields": [
+            {
+                "key": "field_5476ea29ff718",
+                "label": "Info",
+                "name": "",
+                "prefix": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Hlavn\u00ed obsah str\u00e1nky se zobrazuje v lev\u00e9m horn\u00edm boxu str\u00e1nek. Text by nem\u011bl b\u00fdt p\u0159\u00edli\u0161 dlouh\u00fd, aby vizu\u00e1ln\u011b sed\u011bl se sekc\u00ed s videi."
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template_home.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_5476eeb20859a",
+        "title": "Info",
+        "fields": [
+            {
+                "key": "field_5476eed4200c9",
+                "label": "Info",
+                "name": "",
+                "prefix": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Jazyky v Obecn\u00e9m nastaven\u00ed p\u0159epnete ovlada\u010dem v horn\u00ed \u010d\u00e1sti str\u00e1nek."
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-options"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_546367dedda4e",
+        "title": "Kontakt",
+        "fields": [
+            {
+                "key": "field_5463684680e8e",
+                "label": "Kontaktn\u00ed adresa",
+                "name": "",
+                "prefix": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_546367ee92667",
+                "label": "Adresa",
+                "name": "address",
+                "prefix": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "br",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_546367ff92668",
+                "label": "Telefon",
+                "name": "tel",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5463680792669",
+                "label": "Mobil",
+                "name": "mobile",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5463680e9266a",
+                "label": "Emailov\u00e1 adresa",
+                "name": "email",
+                "prefix": "",
+                "type": "email",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_5463681d9266b",
+                "label": "I\u010c",
+                "name": "ic",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_546368289266c",
+                "label": "DI\u010c",
+                "name": "dic",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5463682e9266d",
+                "label": "Info o registraci",
+                "name": "ident_info",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5463686880e8f",
+                "label": "\u0158editel",
+                "name": "",
+                "prefix": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_5463688b80e90",
+                "label": "N\u00e1zev funkce",
+                "name": "position_title",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5463691a84dcc",
+                "label": "Jm\u00e9no",
+                "name": "position_name",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5463689780e91",
+                "label": "Telefon",
+                "name": "position_tel",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_546368a480e92",
+                "label": "Emailov\u00e1 adresa",
+                "name": "position_email",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_546b6bf88a2fc",
+                "label": "Mapa",
+                "name": "",
+                "prefix": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_546b6b8f5fd7c",
+                "label": "Odkaz na mapu",
+                "name": "map_link",
+                "prefix": "",
+                "type": "url",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template_contact.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": [
+            "the_content"
+        ]
+    },
+    {
+        "key": "group_5465e7a6a12a6",
+        "title": "Nab\u00eddka",
+        "fields": [
+            {
+                "key": "field_5465e7b643cde",
+                "label": "Obr\u00e1zek ve v\u00fdpisu aut",
+                "name": "featured_image",
+                "prefix": "",
+                "type": "image",
+                "instructions": "Tento obr\u00e1zek bude zobrazen ve v\u00fdpisu aut a na hlavn\u00ed stran\u011b.<br \/>\r\nObr\u00e1zek bude zmen\u0161en p\u0159esn\u011b na 200x135px.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all"
+            },
+            {
+                "key": "field_5465e81043cdf",
+                "label": "Auto prod\u00e1no",
+                "name": "sold",
+                "prefix": "",
+                "type": "true_false",
+                "instructions": "Za\u0161krtnut\u00edm bude auto vy\u0159azeno z aktu\u00e1ln\u00ed nab\u00eddky a nebude zobrazeno ani na hlavn\u00ed stran\u011b.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Ano",
+                "default_value": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "cars"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_5465e898f1da3",
+        "title": "Nab\u00eddka - galerie",
+        "fields": [
+            {
+                "key": "field_5465e8a325585",
+                "label": "Galerie",
+                "name": "gallery",
+                "prefix": "",
+                "type": "gallery",
+                "instructions": "Nahr\u00e1vejte obr\u00e1zky ve velik\u00e9m rozli\u0161en\u00ed, aby mohly b\u00fdt v detailu zobrazeny na cel\u00fd monitor.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "preview_size": "thumbnail",
+                "library": "all"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "cars"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_5464d89f9de40",
+        "title": "Novinky",
+        "fields": [
+            {
+                "key": "field_5464d8adfc8cb",
+                "label": "Obr\u00e1zek novinky",
+                "name": "news_featured_image",
+                "prefix": "",
+                "type": "image",
+                "instructions": "Obr\u00e1zek, kter\u00fd bude zobrazen ve v\u00fdpisu novinek.\r\nObr\u00e1zek bude zmen\u0161en na \u010dtverec 120x120px.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all"
+            },
+            {
+                "key": "field_5464d8f2fc8cc",
+                "label": "Zobrazit na konci novinky v\u00fd\u0161e vlo\u017een\u00fd obr\u00e1zek v pln\u00e9 velikosti?",
+                "name": "show_featured_in_news",
+                "prefix": "",
+                "type": "true_false",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Ano",
+                "default_value": 1
+            },
+            {
+                "key": "field_5464d925fc8cd",
+                "label": "Obr\u00e1zek na konci novinky",
+                "name": "image_in_news",
+                "prefix": "",
+                "type": "image",
+                "instructions": "Zde m\u016f\u017eete vlo\u017eit jin\u00fd obr\u00e1zek, kter\u00fd bude v pln\u00e9 velikosti zobrazen na konci novinky.",
+                "required": 0,
+                "conditional_logic": [
+                    [
+                        {
+                            "field": "field_5464d8f2fc8cc",
+                            "operator": "!=",
+                            "value": "1"
+                        }
+                    ]
+                ],
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "news"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "side",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_5463527d9e158",
+        "title": "O n\u00e1s",
+        "fields": [
+            {
+                "key": "field_54635282567da",
+                "label": "Obr\u00e1zek v prav\u00e9 \u010d\u00e1sti",
+                "name": "right_image",
+                "prefix": "",
+                "type": "image",
+                "instructions": "Bude zmen\u0161en na 440px \u0161\u00ed\u0159ky.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all"
+            },
+            {
+                "key": "field_54635295567db",
+                "label": "Obr\u00e1zek zakladatele",
+                "name": "founder_image",
+                "prefix": "",
+                "type": "image",
+                "instructions": "Bude zmen\u0161en na 80px \u0161\u00ed\u0159ky.\r\nNechte pr\u00e1zdn\u00e9 pro nezobrazen\u00ed odkazu se zakladatelem.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all"
+            },
+            {
+                "key": "field_546352c4567dc",
+                "label": "Text zakladatele",
+                "name": "founder_text",
+                "prefix": "",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "about_us_founder",
+                "media_upload": 1
+            },
+            {
+                "key": "field_546352d6567dd",
+                "label": "Odkaz na str\u00e1nku zakladatele",
+                "name": "founder_link",
+                "prefix": "",
+                "type": "page_link",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "page"
+                ],
+                "taxonomy": "",
+                "allow_null": 0,
+                "multiple": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template_about_us.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_5464de1fcb437",
+        "title": "Obecn\u00e1 nastaven\u00ed",
+        "fields": [
+            {
+                "key": "field_5476ed8e39da1",
+                "label": "Hlavi\u010dka str\u00e1nek",
+                "name": "",
+                "prefix": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_546d196f563f4",
+                "label": "Slider",
+                "name": "slider",
+                "prefix": "",
+                "type": "gallery",
+                "instructions": "Obr\u00e1zky budou o\u0159\u00edznuty p\u0159esn\u011b na 960x300px.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "preview_size": "thumbnail",
+                "library": "all"
+            },
+            {
+                "key": "field_546d1987563f5",
+                "label": "Prodleva slideru",
+                "name": "slider_timeout",
+                "prefix": "",
+                "type": "number",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": 6000,
+                "placeholder": "",
+                "prepend": "",
+                "append": "sekund",
+                "min": "",
+                "max": "",
+                "step": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5468f0887b7ca",
+                "label": "Videa",
+                "name": "",
+                "prefix": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_5468f15129c84",
+                "label": "URL adresa va\u0161eho YouTube kan\u00e1lu",
+                "name": "youtube_channel_url",
+                "prefix": "",
+                "type": "url",
+                "instructions": "Ve form\u00e1tu \"https:\/\/www.youtube.com\/user\/jmeno_uzivatele\"",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5468f0937b7cb",
+                "label": "Zv\u00fdrazn\u011bn\u00e9 video",
+                "name": "featured_video",
+                "prefix": "",
+                "type": "select",
+                "instructions": "Vyberte video z va\u0161eho kan\u00e1lu, kter\u00e9 bude v\u017edy zobrazeno jako prvn\u00ed.<br \/>\r\nPokud nevyberete \u017e\u00e1dn\u00e9, jako prvn\u00ed bude v\u017edy zobrazeno to nejnov\u011bj\u0161\u00ed video va\u0161eho kan\u00e1lu.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "3HfdSBUOMQw": "Walter Super 6",
+                    "82QKFiL7RA0": "AVC Rolls Royce Legends",
+                    "nmKw-ijQDHI": "The Legend: Hispano Suiza"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_5464de391d242",
+                "label": "Postrann\u00ed panel u novinek",
+                "name": "",
+                "prefix": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_5464df6c8cc49",
+                "label": "Info",
+                "name": "",
+                "prefix": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Toto nastaven\u00ed se projev\u00ed na hlavn\u00ed str\u00e1nce v doln\u00ed \u010d\u00e1sti a tak\u00e9 na detailu v\u0161ech novinek."
+            },
+            {
+                "key": "field_5464de451d243",
+                "label": "Text v postrann\u00edm panelu",
+                "name": "news_sidebar_text",
+                "prefix": "",
+                "type": "wysiwyg",
+                "instructions": "Je mo\u017en\u00e9 standardn\u00edm zp\u016fsobem pou\u017e\u00edvat i obr\u00e1zky, ale nezapome\u0148te, \u017ee postrann\u00ed panel je relativn\u011b \u00fazk\u00fd.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1
+            },
+            {
+                "key": "field_5464de7e1d244",
+                "label": "Odkaz na facebook str\u00e1nku",
+                "name": "news_sidebar_fb_link",
+                "prefix": "",
+                "type": "url",
+                "instructions": "Ve form\u00e1tu nap\u0159.: https:\/\/www.facebook.com\/atpltheory<br \/>\r\nNechte pr\u00e1zdn\u00e9 pro nezobrazen\u00ed Facebook boxu.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": ""
+            },
+            {
+                "key": "field_5465ec1e18d0d",
+                "label": "Detail aut",
+                "name": "",
+                "prefix": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_5476ee1fa73b7",
+                "label": "Info",
+                "name": "",
+                "prefix": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Toto nastaven\u00ed je spole\u010dn\u00e9 pro v\u0161echny nab\u00eddky aut v konkr\u00e9tn\u00ed jazykov\u00e9 mutaci."
+            },
+            {
+                "key": "field_5465ec2b18d0e",
+                "label": "Text pod popisem auta",
+                "name": "cars_contact_text",
+                "prefix": "",
+                "type": "text",
+                "instructions": "Text mezi hv\u011bzdi\u010dkami bude podtr\u017een.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5465ec7a18d0f",
+                "label": "Odkaz z textu pod popisem",
+                "name": "cars_contact_link",
+                "prefix": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "http:\/\/localhost\/auto-veteran\/wp\/test-2\/": "test",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/ivo-smutny\/": "Ivo Smutn\u00fd",
+                    "http:\/\/localhost\/auto-veteran\/wp\/kontakt\/": "Kontakt",
+                    "http:\/\/localhost\/auto-veteran\/wp\/o-nas\/": "O n\u00e1s",
+                    "http:\/\/localhost\/auto-veteran\/wp\/videa\/": "Videa",
+                    "http:\/\/localhost\/auto-veteran\/wp\/sluzby\/": "Slu\u017eby",
+                    "http:\/\/localhost\/auto-veteran\/wp\/": "Home",
+                    "http:\/\/localhost\/auto-veteran\/wp\/novinky\/": "Novinky",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/": "Nab\u00eddka",
+                    "http:\/\/localhost\/auto-veteran\/wp\/nabidka\/predchozi\/": "P\u0159edchoz\u00ed nab\u00eddka"
+                },
+                "default_value": [],
+                "allow_null": 1,
+                "multiple": 0,
+                "ui": 1,
+                "ajax": 0,
+                "placeholder": "",
+                "disabled": 0,
+                "readonly": 0
+            },
+            {
+                "key": "field_5474d97a6dbc6",
+                "label": "SEO nastaven\u00ed",
+                "name": "",
+                "prefix": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_5474d9926dbc7",
+                "label": "N\u00e1zev webu",
+                "name": "blogname",
+                "prefix": "",
+                "type": "text",
+                "instructions": "Tento text se objevuje v z\u00e1hlav\u00ed prohl\u00ed\u017ee\u010de.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5474d9b36dbc8",
+                "label": "Popis webu",
+                "name": "blogdescription",
+                "prefix": "",
+                "type": "textarea",
+                "instructions": "Tento text bude pou\u017eit jako popis odkazu ve vyhled\u00e1va\u010d\u00edch, pokud na str\u00e1nce nen\u00ed \u017e\u00e1dn\u00fd text a ru\u010dn\u011b nevypln\u00edte pole SEO popis na dan\u00e9 str\u00e1nce.<br\/>\r\nTento text by m\u011bl shrnovat obsah webu a nem\u011bl by b\u00fdt del\u0161\u00ed ne\u017e 156 znak\u016f.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5475b6f11c57e",
+                "label": "Kontaktn\u00ed formul\u00e1\u0159",
+                "name": "",
+                "prefix": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                }
+            },
+            {
+                "key": "field_5475b6fb1c57f",
+                "label": "E-mail administr\u00e1tora",
+                "name": "cf_admin_email",
+                "prefix": "",
+                "type": "email",
+                "instructions": "Na tento e-mail budou doru\u010dov\u00e1ny nov\u00e9 zpr\u00e1vy z konktatn\u00edho formul\u00e1\u0159e.",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_5475bfa3c3d20",
+                "label": "Potvrzuj\u00edc\u00ed zpr\u00e1va pro odes\u00edlatele formul\u00e1\u0159e",
+                "name": "cf_notif_message",
+                "prefix": "",
+                "type": "textarea",
+                "instructions": "Tato zpr\u00e1va bude zasl\u00e1na z\u00e1kazn\u00edkovi jako potvrzen\u00ed, \u017ee do\u0161lo k \u00fasp\u011b\u0161n\u00e9mu odesl\u00e1n\u00ed kontaktn\u00edho formul\u00e1\u0159e.<br \/>\r\nM\u016f\u017eete pou\u017e\u00edvat tyto dynamick\u00e9 tagy:<br \/>\r\n<em>[name]<\/em> - z\u00e1kazn\u00edkovo jm\u00e9no<br \/>\r\n<em>[email]<\/em> - z\u00e1kazn\u00edk\u016fv e-mail<br \/>\r\n<em>[message]<\/em> - z\u00e1kazn\u00edkova zpr\u00e1va",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": "",
+                "new_lines": "",
+                "readonly": 0,
+                "disabled": 0
+            },
+            {
+                "key": "field_5475c29301924",
+                "label": "P\u0159edm\u011bt potvrzuj\u00edc\u00ed zpr\u00e1vy",
+                "name": "cf_notif_subject",
+                "prefix": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "theme-options"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_54634c15f13d2",
+        "title": "Slu\u017eby",
+        "fields": [
+            {
+                "key": "field_54634c3d9b9a4",
+                "label": "Slu\u017eby",
+                "name": "services",
+                "prefix": "",
+                "type": "repeater",
+                "instructions": "Slu\u017eby je mo\u017en\u00e9 p\u0159id\u00e1vat nebo mazat ovl\u00e1dac\u00edmi prvky na prav\u00e9 stran\u011b. Uchopen\u00edm a ta\u017een\u00edm slu\u017eby za levou stranu je mo\u017en\u00e9 m\u011bnit po\u0159ad\u00ed.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "min": "",
+                "max": "",
+                "layout": "row",
+                "button_label": "P\u0159idat slu\u017ebu",
+                "sub_fields": [
+                    {
+                        "key": "field_54634c519b9a5",
+                        "label": "Nadpis slu\u017eby",
+                        "name": "title",
+                        "prefix": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_54634c5f9b9a6",
+                        "label": "Popis slu\u017eby",
+                        "name": "description",
+                        "prefix": "",
+                        "type": "wysiwyg",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "tabs": "all",
+                        "toolbar": "basic",
+                        "media_upload": 1
+                    },
+                    {
+                        "key": "field_54634ca09b9a8",
+                        "label": "Zobrazit odkaz pod popiskem slu\u017eby?",
+                        "name": "show_link",
+                        "prefix": "",
+                        "type": "true_false",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "Ano",
+                        "default_value": 0
+                    },
+                    {
+                        "key": "field_54634c7a9b9a7",
+                        "label": "Text odkazu",
+                        "name": "link_text",
+                        "prefix": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_54634ca09b9a8",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": "",
+                        "readonly": 0,
+                        "disabled": 0
+                    },
+                    {
+                        "key": "field_54634cc69b9a9",
+                        "label": "Sm\u011b\u0159ov\u00e1n\u00ed odkazu",
+                        "name": "link_url",
+                        "prefix": "",
+                        "type": "page_link",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_54634ca09b9a8",
+                                    "operator": "==",
+                                    "value": "1"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "page"
+                        ],
+                        "taxonomy": "",
+                        "allow_null": 0,
+                        "multiple": 0
+                    },
+                    {
+                        "key": "field_54634d0071b7f",
+                        "label": "Obr\u00e1zek",
+                        "name": "image",
+                        "prefix": "",
+                        "type": "image",
+                        "instructions": "Obr\u00e1zek bude zmen\u0161en na 350px \u0161\u00ed\u0159ky.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "thumbnail",
+                        "library": "all"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template_sluzby.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_5476e83081834",
+        "title": "Slu\u017eby - head",
+        "fields": [
+            {
+                "key": "field_5476e836eb95a",
+                "label": "Info",
+                "name": "",
+                "prefix": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Hlavn\u00ed obsah str\u00e1nky se zobrazuje pod nadpisem \"Slu\u017eby\" a nad sekcemi konkr\u00e9tn\u00edch slu\u017eeb. Nen\u00ed nutn\u00e9 ho vypl\u0148ovat."
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template_sluzby.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_546241602e1df",
+        "title": "Videa",
+        "fields": [
+            {
+                "key": "field_54624227f9b12",
+                "label": "Text prav\u00e9ho sloupce",
+                "name": "sidebar_teaser",
+                "prefix": "",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "basic",
+                "media_upload": 0
+            },
+            {
+                "key": "field_5468f1a480d77",
+                "label": "Info",
+                "name": "",
+                "prefix": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "N\u011bkter\u00e9 mo\u017enosti - jako adresa va\u0161eho YouTube kan\u00e1lu nebo zv\u00fdrazn\u011bn\u00e9 video najdete v menu <strong>Obecn\u00e1 nastaven\u00ed<\/strong>."
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template_videa.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "field",
+        "hide_on_screen": ""
+    },
+    {
+        "key": "group_5476eabc12cae",
+        "title": "Videa - head",
+        "fields": [
+            {
+                "key": "field_5476ead93065e",
+                "label": "Info",
+                "name": "",
+                "prefix": "",
+                "type": "message",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "message": "Hlavn\u00ed obsah str\u00e1nky se ukazuje nad v\u00fdpisem v\u0161ech vide\u00ed. Nen\u00ed nutn\u00e9 jej vypl\u0148ovat."
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "template_videa.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "seamless",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": ""
+    }
+]

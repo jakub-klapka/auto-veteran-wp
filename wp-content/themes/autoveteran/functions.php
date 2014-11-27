@@ -17,7 +17,10 @@ define( 'ICL_DONT_LOAD_LANGUAGES_JS', true );
 $plugins_textdomain_fix = array(
 //	'acf' => 'acf-options-page',
 //	'baweic' => 'baw-invitation-codes',
-//	'ga-dash' => 'google-analytics-dashboard-for-wp'
+	'sitepress' => 'sitepress-multilingual-cms',
+	'contact-form-7-to-database-extension' => 'contact-form-7-to-database-extension',
+	'acf' => 'acf',
+	'ga-dash' => 'google-analytics-dashboard-for-wp'
 );
 foreach( $plugins_textdomain_fix as $textdomain => $file_name ) {
 	$file = WP_LANG_DIR . '/plugins/' . $file_name . '-' . get_locale() . '.mo';
@@ -25,6 +28,14 @@ foreach( $plugins_textdomain_fix as $textdomain => $file_name ) {
 		load_textdomain( $textdomain, $file );
 	}
 }
+
+
+/*
+ * Includes
+ */
+include_once( 'core/inc/activity_widget.php' );
+include_once( 'core/inc/at_glance.php' );
+
 
 
 /**

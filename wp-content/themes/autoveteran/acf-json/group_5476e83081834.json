@@ -1,0 +1,37 @@
+{
+    "key": "group_5476e83081834",
+    "title": "Slu\u017eby - head",
+    "fields": [
+        {
+            "key": "field_5476e836eb95a",
+            "label": "Info",
+            "name": "",
+            "prefix": "",
+            "type": "message",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Hlavn\u00ed obsah str\u00e1nky se zobrazuje pod nadpisem \"Slu\u017eby\" a nad sekcemi konkr\u00e9tn\u00edch slu\u017eeb. Nen\u00ed nutn\u00e9 ho vypl\u0148ovat."
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template_sluzby.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": ""
+}

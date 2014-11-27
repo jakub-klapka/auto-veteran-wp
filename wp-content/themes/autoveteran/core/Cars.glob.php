@@ -22,7 +22,7 @@ class Cars {
 	public function register_cpt() {
 
 		$labels = array(
-			'name'               => 'Nabídky',
+			'name'               => __( 'Nabídky', LUMI_TEXTDOMAIN ),
 			'singular_name'      => 'Nabídka',
 			'menu_name'          => 'Nabídky',
 			'name_admin_bar'     => 'Přidat nabídku',

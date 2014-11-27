@@ -8,7 +8,7 @@
             "name": "services",
             "prefix": "",
             "type": "repeater",
-            "instructions": "",
+            "instructions": "Slu\u017eby je mo\u017en\u00e9 p\u0159id\u00e1vat nebo mazat ovl\u00e1dac\u00edmi prvky na prav\u00e9 stran\u011b. Uchopen\u00edm a ta\u017een\u00edm slu\u017eby za levou stranu je mo\u017en\u00e9 m\u011bnit po\u0159ad\u00ed.",
             "required": 0,
             "conditional_logic": 0,
             "wrapper": {
@@ -172,6 +172,6 @@
     "position": "normal",
     "style": "default",
     "label_placement": "top",
-    "instruction_placement": "field",
+    "instruction_placement": "label",
     "hide_on_screen": ""
 }

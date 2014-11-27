@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Tue Nov 18 2014 18:23:19 GMT+0100 (Střední Evropa (běžný "
 "čas))\n"
-"PO-Revision-Date: Wed Nov 19 2014 12:25:25 GMT+0100 (Střední Evropa (běžný "
+"PO-Revision-Date: Thu Nov 27 2014 14:06:39 GMT+0100 (Střední Evropa (běžný "
 "čas))\n"
 "Last-Translator: Jakub Klapka <lapak@lumiart.cz>\n"
 "Language-Team: \n"
@@ -28,11 +28,11 @@ msgstr ""
 msgid "Aktuální nabídka"
 msgstr "Current stock"
 
-#: archive-cars.php:8
+#: archive-cars.php:8 /core/ACFField.glob.php:41
 msgid "Předchozí nabídka"
 msgstr "Previous stock"
 
-#: archive-news.php:10 /template_home.php:68
+#: archive-news.php:10 /template_home.php:68 /core/ACFField.glob.php:35
 msgid "Novinky"
 msgstr "News"
 
@@ -40,11 +40,11 @@ msgstr "News"
 msgid "Adresa"
 msgstr "Address"
 
-#: template_contact.php:27 /template_contact.php:74
+#: template_contact.php:27
 msgid "Telefon"
 msgstr "Phone"
 
-#: template_contact.php:33
+#: template_contact.php:33 /template_contact.php:74
 msgid "Mobilní telefon"
 msgstr "Mobile Phone"
 
@@ -112,6 +112,14 @@ msgstr "Youtube channel"
 msgid "Odebírat"
 msgstr "Subscribe"
 
+#: core/ACFField.glob.php:38
+msgid "Nabídka"
+msgstr "Stock"
+
+#: core/Cars.glob.php:25
+msgid "Nabídky"
+msgstr "Stock"
+
 #: core/Cars.glob.php:47
 msgctxt "URL slug"
 msgid "nabidka"
@@ -133,3 +141,39 @@ msgstr "«"
 #: core/NewsArchive.template.php:32
 msgid "»"
 msgstr "»"
+
+#: core/inc/activity_widget.php:51
+#, php-format
+msgid "Ukázat %s dalších…"
+msgstr "Show %s more"
+
+#: core/inc/activity_widget.php:67
+msgid "Dnes"
+msgstr "Today"
+
+#: core/inc/activity_widget.php:69
+msgid "Zítra"
+msgstr "Tomorow"
+
+#. translators: date and time format for recent posts on the dashboard, see http://php.net/date
+#: core/inc/activity_widget.php:72
+msgid "j.n.Y"
+msgstr ""
+
+#. translators: 1: relative date, 2: time, 4: post title
+#: core/inc/activity_widget.php:77
+#, php-format
+msgid "<span>%1$s, %2$s</span> <a href=\"%3$s\">%4$s</a>"
+msgstr ""
+
+#: core/inc/activity_widget.php:112
+msgid "Bude brzo publikováno"
+msgstr "Will be published soon"
+
+#: core/inc/activity_widget.php:122
+msgid "Nedávno publikováno"
+msgstr "Recently published"
+
+#: core/inc/activity_widget.php:131
+msgid "Zatím žádná aktivita"
+msgstr "No activity so far"

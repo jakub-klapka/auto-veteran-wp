@@ -1,6 +1,6 @@
 <?php
 /*
-  * Template name: O nás
+  * Template name: Velký obrázek v pravé části (O nás)
   */
 $a = lumi_template( 'AboutUs' );
 ?>
