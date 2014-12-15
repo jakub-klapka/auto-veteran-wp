@@ -28,7 +28,7 @@ class Cars {
 
 		$sold = get_field( 'sold', $post_id );
 		if( $sold ) {
-			echo '<span style="color: grey; font-weight: bold;">Prodáno</span>';
+			echo '<span style="color: grey; font-weight: bold;">Předchozí</span>';
 		} else {
 			echo '<span style="color: green; font-weight: bold;">Aktivní</span>';
 		}
@@ -46,7 +46,7 @@ class Cars {
 			//in 'label' => 'value' format
 			$values = array(
 				'Aktivní' => 'active',
-				'Prodáno' => 'sold'
+				'Předchozí' => 'sold'
 			);
 			?>
 			<select name="filter_status">

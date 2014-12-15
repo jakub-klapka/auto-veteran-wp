@@ -16,6 +16,8 @@ class Layout {
 			add_action( 'wp_print_scripts', array( $this, 'move_wpml_to_footer' ) );
 		} );
 
+		add_action( 'wp_head', array( $this, 'admin_bar_links' ) );
+
 	}
 
 	public function register_scripts() {
@@ -60,6 +62,13 @@ class Layout {
 			$wp_scripts->registered['jquery.cookie']->extra['group'] = 1;
 			$wp_scripts->registered['wpml-browser-redirect']->extra['group'] = 1;
 		}
+	}
+
+	public function admin_bar_links() {
+		if( !is_user_logged_in() ) return;
+		?>
+		<style type="text/css">#wp-admin-bar-themes,#wp-admin-bar-customize,#wp-admin-bar-menus{display: none;}</style>
+		<?php
 	}
 
 }
