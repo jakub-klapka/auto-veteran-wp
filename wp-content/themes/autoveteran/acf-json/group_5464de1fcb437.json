@@ -53,7 +53,7 @@
             "default_value": 6000,
             "placeholder": "",
             "prepend": "",
-            "append": "sekund",
+            "append": "milisekund",
             "min": "",
             "max": "",
             "step": "",

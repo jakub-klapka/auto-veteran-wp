@@ -42,6 +42,7 @@ class Layout {
 		wp_register_script( 'nivo_slider', get_template_directory_uri() . '/assets/js/libs/jquery.nivo.slider.js', array( 'jquery' ), LUMI_CSS_JS_VER, true );
 
 		wp_register_script( 'stock_gallery', get_template_directory_uri() . '/assets/js/stock_gallery.js', array( 'jquery', 'fancybox' ), LUMI_CSS_JS_VER, true );
+		wp_register_script( 'article_gallery', get_template_directory_uri() . '/assets/js/article_gallery.js', array( 'jquery', 'fancybox' ), LUMI_CSS_JS_VER, true );
 		wp_register_script( 'contact', get_template_directory_uri() . '/assets/js/contact_us.js', array( 'jquery', 'autosize' ), LUMI_CSS_JS_VER, true );
 		wp_register_script( 'video_carousel', get_template_directory_uri() . '/assets/js/video_carousel.js', array( 'jquery', 'trunk8' ), LUMI_CSS_JS_VER, true );
 		wp_register_script( 'slider', get_template_directory_uri() . '/assets/js/slider.js', array( 'jquery', 'nivo_slider' ), LUMI_CSS_JS_VER, true );

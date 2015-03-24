@@ -1,7 +1,7 @@
 <?php
 
 define( 'LUMI_CORE_PATH', get_template_directory() . '/core/' );
-define( 'LUMI_CSS_JS_VER', 1 );
+define( 'LUMI_CSS_JS_VER', 2 );
 define( 'LUMI_TEXTDOMAIN', 'autoveteran' );
 
 
