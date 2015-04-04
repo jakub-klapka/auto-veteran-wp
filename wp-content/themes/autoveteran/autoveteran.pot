@@ -6,7 +6,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: Tue Nov 18 2014 18:23:19 GMT+0100 (Střední Evropa (běžný "
 "čas))\n"
-"POT-Revision-Date: Thu Nov 27 2014 14:07:11 GMT+0100 (Střední Evropa (běžný "
+"POT-Revision-Date: Sat Apr 04 2015 10:25:12 GMT+0200 (Střední Evropa (letní "
 "čas))\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
@@ -34,8 +34,8 @@ msgstr ""
 msgid "Předchozí nabídka"
 msgstr ""
 
-#: /archive-news.php:10 /template_home.php:68 /core/ACFField.glob.php:35 
-#: /core/News.glob.php:20
+#: /archive-news.php:10 /template_home.php:68 /core/News.glob.php:20 
+#: /core/ACFField.glob.php:35
 msgid "Novinky"
 msgstr ""
 
@@ -115,10 +115,6 @@ msgstr ""
 msgid "Odebírat"
 msgstr ""
 
-#: /core/ACFField.glob.php:38
-msgid "Nabídka"
-msgstr ""
-
 #: /core/Cars.glob.php:25
 msgid "Nabídky"
 msgstr ""
@@ -143,6 +139,10 @@ msgstr ""
 
 #: /core/NewsArchive.template.php:32
 msgid "»"
+msgstr ""
+
+#: /core/ACFField.glob.php:38
+msgid "Nabídka"
 msgstr ""
 
 #: /core/inc/activity_widget.php:51

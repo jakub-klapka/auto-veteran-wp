@@ -9,6 +9,13 @@
 			<?= $l->get_footer_menu(); ?>
 		</nav>
 
+		<div class="partner">
+			<div class="partner-title">
+				Hlavní partner
+			</div>
+			<a class="partner-logo" href="http://www.classicdriver.com/" target="_blank">Classic Driver</a>
+		</div>
+
 	</footer>
 
 
